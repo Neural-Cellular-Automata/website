@@ -1,4 +1,3 @@
-# A New Kind of Network
 A collection of research on Neural Cellular Automata (NCA)
 
 ## Under Construction !
