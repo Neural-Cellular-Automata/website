@@ -4,7 +4,7 @@ A collection of research on Neural Cellular Automata (NCA)
 ## Under Construction !
 **Code and links available soon...**
 
-## NCA Literature
+## CA Literature
 Here is the curated list of references, categorized and formatted in tables with direct links to the papers or official repository pages.
 
 ### 🏛️ Foundational Theory & Classics
@@ -36,6 +36,8 @@ These entries explore how local CA rules can model complex natural phenomena lik
 
 ---
 
+## NCA Literature
+Here is the curated list of references, categorized and formatted in tables with direct links to the papers or official repository pages.
 ### 🤖 Neural Cellular Automata (NCA) & Deep Learning
 
 This section covers the "modern" era where update rules are learned using neural networks and backpropagation.
