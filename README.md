@@ -8,8 +8,7 @@ Over two decades later, while Cellular Automata have still been waiting for a su
 ### Table of Content 
 * [Cellular Automata](#cellular-automata)
 * [Neural Cellular Automata](#neural-cellular-automata)
-* [NCAtorch PyTorch Library](#ncatorch) **[TMLR 2026]**
-
+* [NCAtorch PyTorch Library](#ncatorch) **[TMLR 2026]** 
 ## Cellular Automata
 *Cellular Automata* (CA) have been a subject of study since the 1940s, notably by *John von Neumann* ([von Neumann, 1966](https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf)) and others. At its core, *Cellular Automata* are discrete computational models, which consist of a finite, regular grid $\mathcal{G}$ of discrete cells. Each cell holds a discrete state $s_{i,t}$ at a given discrete time-step $t$.
 
@@ -76,7 +75,7 @@ The theoretical equivalence between "nested" CNNs and CA has been formally prove
 
 **NCAtorch** is an open-source, modular research framework that combines classical Cellular Automata concepts with learnable neural networks. This implementation provides a unified codebase for training, evaluating, and visualizing Neural Cellular Automata across diverse tasks.
 
-<a href="https://github.com/mspitzna/NCAtorch/"><img src="github.png" width=200></a>
+[![Paper on arXiv](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/mspitzna/NCAtorch/)
 
 Key features:
 
