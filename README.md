@@ -62,9 +62,6 @@ The theoretical equivalence between "nested" CNNs and CA has been formally prove
 | **Sketch of a basic CNN implementation of a 2D NCA** with a 3D state space. The initial grid is fed into a CNN architecture which updates the state additively and is called recursively for each time step. During training, the network is trained via usual gradient updates computed per timestep.. |
 
 
-
-While the original work of (Mordvintsev et al., 2020) used a simple, *LeNet* (LeCun et al., 2002)-like, 1-layer convolutional NCA to show impressive self-organizing and classification tasks on images, later works extended the use of CNNs to more complex network architectures: (Sandler et al., 2020) showed NCA based image segmentation with larger CNNs, while (Tesfaldet et al., 2022) introduced an *attention* based implementation. NCAs based on GANs (Otte et al., 2021), VAEs (Palm et al., 2022) or diffusion (Kalkhof et al., 2024) also have been utilized for generative tasks. (Grattarola et al., 2021) applied an NCA based approach on graph data.
-
 ---
 
 ## NCATorch
