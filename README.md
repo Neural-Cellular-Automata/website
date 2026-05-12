@@ -5,6 +5,12 @@ Over two decades later, while Cellular Automata have still been waiting for a su
 ## Cellular Automata
 *Cellular Automata* (CA) have been a subject of study since the 1940s, notably by *John von Neumann* (von Neumann, 1966) and others. At its core, *Cellular Automata* are discrete computational models, which consist of a finite, regular grid $\mathcal{G}$ of discrete cells. Each cell holds a discrete state $s_{i,t}$ at a given discrete time-step $t$.
 
+
+| **Figure 1** |
+| --- |
+|  |
+| **Visualization of a simple, 1D CA with binary states.** **a)** shows the recursive update of grid states over time by applying the update rules $\mathcal{R}$ on the $3 \times 1$ cell neighborhoods shown in **b)**. |
+
 As time progresses, cell states are updated recursively and synchronously across all cells, based on a set of rules $\mathcal{R}$ that utilize the local neighborhood $\mathcal{N}(s_{i,t})$ to calculate the new cell state: $s_{i,t+1}:=\mathcal{R}[\mathcal{N}(s_{i,t})]$ (Schiff, 2011). Figure 1 shows the computation process and rules for a basic CA with binary states ($s_{(x,y),t} \in \{0,1\}$).
 
 *Cellular Automata* gained significant public recognition in the 1970s through *Conway's "Game of Life"* (Conway, 1970). This game employed a binary *Cellular Automaton* on a two-dimensional grid and update-rules based on a $3 \times 3$ neighborhood.
