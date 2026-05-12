@@ -62,7 +62,7 @@ While the original work of (Mordvintsev et al., 2020) used a simple, *LeNet* (Le
 <div align="center">
   <img src="nca_torch_logo.png" alt="NCA-torch Logo" width="400"/>
   <p>
-    <em>A comprehensive PyTorch-based framework for Neural Cellular Automata research and applications</em>
+    <em>A comprehensive [PyTorch](https://pytorch.org/)-based framework for Neural Cellular Automata research and applications</em>
   </p>
 </div>
 
