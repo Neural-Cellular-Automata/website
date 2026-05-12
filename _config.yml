@@ -4,3 +4,6 @@ description: Collecting Research in NCAs
 show_downloads: false
 google_analytics:
 theme: minima
+markdown: kramdown
+kramdown:
+    math_engine: katex
