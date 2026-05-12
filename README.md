@@ -8,8 +8,7 @@ Over two decades later, while Cellular Automata have still been waiting for a su
 ### Table of Content 
 * [Cellular Automata](#cellular-automata)
 * [Neural Cellular Automata](#neural-cellular-automata)
-* [NCAtorch PyTorch Library](#ncatorch)
-
+* [NCAtorch PyTorch Library](#ncatorch) **[TMLR 2026]**
 
 ## Cellular Automata
 *Cellular Automata* (CA) have been a subject of study since the 1940s, notably by *John von Neumann* ([von Neumann, 1966](https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf)) and others. At its core, *Cellular Automata* are discrete computational models, which consist of a finite, regular grid $\mathcal{G}$ of discrete cells. Each cell holds a discrete state $s_{i,t}$ at a given discrete time-step $t$.
@@ -44,18 +43,25 @@ While all potential rules for a specific CA with predetermined discrete states $
 
 $$s_{i,t+1}:=s_{i,t}+f_\phi[\mathcal{N}(s_{i,t})], \quad s_i \in \mathcal{S}$$
 
+Since $f_\phi$ is **space-invariant** with respect to the grid $\mathcal{G}$ (meaning the same $f_\phi$ is applied at all positions $i$ during a time step), (Mordvintsev et al., 2020) suggested an efficient implementation using "nested" *Convolutional Neural Networks (CNNs)* (LeCun et al., 1998).
+
+#### CNN Implementation 
+In its simplest form, the kernels (or filters) of a single convolutional layer model a **learnable perception** $\mathcal{P}_{\mathcal{N},\phi}$
+
+of neighborhoods $\mathcal{N}$ matching the kernel size, followed by a **learnable update layer** $\mathcal{U}_\phi$ 
+
+implemented as $1 \times 1$ convolutions, which together implement learnable non-linear CA update rules $\mathcal{R}_\phi$ on all cells $s$ at time $t$ simultaneously:
+
+$$s_{t+1}:=s_{t}+\mathcal{R_\phi}[s_t] := s_{t}+\mathcal{U}_\phi[\mathcal{P}_{\mathcal{N},\phi}*s_{t}]$$
+
+The theoretical equivalence between "nested" CNNs and CA has been formally proven by (Gilpin, 2019). It is important to note, however, that most NCA architectures relax the original CA property of discrete cell states, moving instead toward **continuous vector state representations** $s_{i,t} \in \mathbb{R}^n$.
+
 | **NCA Implementation as Recursive CNN** |
 | --- |
 | ![NCA figure 2](nca.png) |
 | **Sketch of a basic CNN implementation of a 2D NCA** with a 3D state space. The initial grid is fed into a CNN architecture which updates the state additively and is called recursively for each time step. During training, the network is trained via usual gradient updates computed per timestep.. |
 
-Since $f_\phi$ is **space-invariant** with respect to the grid $\mathcal{G}$ (meaning the same $f_\phi$ is applied at all positions $i$ during a time step), (Mordvintsev et al., 2020) suggested an efficient implementation using "nested" *Convolutional Neural Networks (CNNs)* (LeCun et al., 1998).
 
-In its simplest form, the kernels (or filters) of a single convolutional layer model a **learnable perception** $\mathcal{P}_{\mathcal{N},\phi}$ of neighborhoods $\mathcal{N}$ matching the kernel size, followed by a **learnable update layer** $\mathcal{U}_\phi$ implemented as $1 \times 1$ convolutions, which together implement learnable non-linear CA update rules $\mathcal{R_\phi}$ on all cells $s$ at time $t$ simultaneously:
-
-$$s_{t+1}:=s_{t}+\mathcal{R_\phi}[s_t] := s_{t}+\mathcal{U}_\phi[\mathcal{P}_{\mathcal{N},\phi}*s_{t}]$$
-
-The theoretical equivalence between "nested" CNNs and CA has been formally proven by (Gilpin, 2019). It is important to note, however, that most NCA architectures relax the original CA property of discrete cell states, moving instead toward **continuous vector state representations** $s_{i,t} \in \mathbb{R}^n$.
 
 While the original work of (Mordvintsev et al., 2020) used a simple, *LeNet* (LeCun et al., 2002)-like, 1-layer convolutional NCA to show impressive self-organizing and classification tasks on images, later works extended the use of CNNs to more complex network architectures: (Sandler et al., 2020) showed NCA based image segmentation with larger CNNs, while (Tesfaldet et al., 2022) introduced an *attention* based implementation. NCAs based on GANs (Otte et al., 2021), VAEs (Palm et al., 2022) or diffusion (Kalkhof et al., 2024) also have been utilized for generative tasks. (Grattarola et al., 2021) applied an NCA based approach on graph data.
 
