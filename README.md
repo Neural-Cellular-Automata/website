@@ -61,6 +61,7 @@ While the original work of (Mordvintsev et al., 2020) used a simple, *LeNet* (Le
 
 This site is maintained by
 
-<a href="https://imla.hs-offenburg.de/"><img src="IMLA.png" width=250></a>
+<a href="https://www.keuper-labs.org/"><img src="logo.svg" width=100></a>
+<a href="https://www.keuper-labs.org/">www.keuper-labs.org</a>
 
-*The Instutite for Machine Learing and Analytics* at Offenburg University.
+
