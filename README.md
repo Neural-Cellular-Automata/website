@@ -6,6 +6,7 @@ Over two decades later, while Cellular Automata have still been waiting for a su
 
 * [Cellular Automata](#cellular-automata)
 * [Neural Cellular Automata](#neural-cellular-automata)
+* [NCATroch PyTorch Library](#ncatorch)
 
 
 ## Cellular Automata
@@ -60,15 +61,13 @@ While the original work of (Mordvintsev et al., 2020) used a simple, *LeNet* (Le
   <p>
     <em>A comprehensive PyTorch-based framework for Neural Cellular Automata research and applications</em>
   </p>
-
-  ---
 </div>
 
 ### 🌟 Highlights
 
 **NCAtorch** is an open-source, modular research framework that combines classical Cellular Automata concepts with learnable neural networks. This implementation provides a unified codebase for training, evaluating, and visualizing Neural Cellular Automata across diverse tasks.
 
-
+[**NCAtorch on Github**](https://github.com/mspitzna/NCAtorch)
 
 Key features:
 
@@ -79,8 +78,15 @@ Key features:
 - 📊 **Experiment Tracking**: Integrated [Weights & Biases](https://wandb.ai/site/) logging
 - ⚙️ **YAML Configuration**: Pydantic-validated configuration system
 
----
 
+### 📹 Demo Video
+
+<div align="center">
+  <a href="https://youtu.be/TWF4HYgWQwY">
+    <img src="https://img.youtube.com/vi/TWF4HYgWQwY/maxresdefault.jpg" alt="NCAtorch Interactive Demo" width="700">
+  </a>
+  <p><em>Click to watch the toolkit demo video</em></p>
+</div>
 
 This site is maintained by
 
