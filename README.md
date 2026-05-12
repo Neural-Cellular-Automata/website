@@ -61,7 +61,7 @@ While the original work of (Mordvintsev et al., 2020) used a simple, *LeNet* (Le
 
 This site is maintained by
 
-<a href="https://www.keuper-labs.org/"><img src="logo.svg" width=100></a>
+<a href="https://www.keuper-labs.org/"><img src="logo.svg" width=20></a>
 <a href="https://www.keuper-labs.org/">www.keuper-labs.org</a>
 
 
