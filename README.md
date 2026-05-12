@@ -98,10 +98,8 @@ Key features:
   year={2026}
 }
 ```
-* [OpenReview Link: *A New Kind of Network? Review and Reference
-Implementation of Neural Cellular Automata*]()
-* [Arxiv Link: *A New Kind of Network? Review and Reference
-Implementation of Neural Cellular Automata*](https://arxiv.org/abs/2604.24990)
+[![Paper on arXiv](https://img.shields.io/badge/arXiv-2604.24990-b31b1b.svg)](https://arxiv.org/abs/2604.24990)
+
 
 ### 📹 Demo Video
 
