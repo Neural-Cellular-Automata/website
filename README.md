@@ -2,6 +2,10 @@
 
 Over two decades later, while Cellular Automata have still been waiting for a substantial breakthrough in scientific applications, recent research showed new and promising approaches which combine **Wolfram's** ideas with learnable Artificial Neural Networks: So-called ***Neural Cellular Automata (NCA)*** are able to learn the complex update rules of CA from data samples, allowing them to model complex, self-organizing generative systems.
 
+* [Cellular Automata](#cellular-automata)
+* [Neural Cellular Automata](#neural-cellular-automata)
+
+
 ## Cellular Automata
 *Cellular Automata* (CA) have been a subject of study since the 1940s, notably by *John von Neumann* (von Neumann, 1966) and others. At its core, *Cellular Automata* are discrete computational models, which consist of a finite, regular grid $\mathcal{G}$ of discrete cells. Each cell holds a discrete state $s_{i,t}$ at a given discrete time-step $t$.
 
@@ -21,7 +25,7 @@ Subsequent research demonstrated the broad applicability of CAs, including their
 
 This theoretical strength led *Stephen Wolfram* to propose his well-known work, ***"A New Kind Of Science"*** (Wolfram, 2003). In it, he suggested that inherently limited mathematical formulations could be replaced by more powerful *"simple programs"* and formulated a new formal framework for numerous scientific applications grounded in *Cellular Automata*.
 
-## **Basic *Neural Cellular Automata***
+## ***Neural Cellular Automata***
 
 #### **From Fixed Rules to Neural Networks**
 
