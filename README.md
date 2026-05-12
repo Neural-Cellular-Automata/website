@@ -27,6 +27,8 @@ Subsequent research demonstrated the broad applicability of CAs, including their
 
 This theoretical strength led *Stephen Wolfram* to propose his well-known work, ***"A New Kind Of Science"*** (Wolfram, 2003). In it, he suggested that inherently limited mathematical formulations could be replaced by more powerful *"simple programs"* and formulated a new formal framework for numerous scientific applications grounded in *Cellular Automata*.
 
+---
+
 ## ***Neural Cellular Automata***
 
 #### **From Fixed Rules to Neural Networks**
@@ -53,6 +55,8 @@ $$s_{t+1}:=s_{t}+\mathcal{R_\phi}[s_t] := s_{t}+\mathcal{U}_\phi[\mathcal{P}_{\m
 The theoretical equivalence between "nested" CNNs and CA has been formally proven by (Gilpin, 2019). It is important to note, however, that most NCA architectures relax the original CA property of discrete cell states, moving instead toward **continuous vector state representations** $s_{i,t} \in \mathbb{R}^n$.
 
 While the original work of (Mordvintsev et al., 2020) used a simple, *LeNet* (LeCun et al., 2002)-like, 1-layer convolutional NCA to show impressive self-organizing and classification tasks on images, later works extended the use of CNNs to more complex network architectures: (Sandler et al., 2020) showed NCA based image segmentation with larger CNNs, while (Tesfaldet et al., 2022) introduced an *attention* based implementation. NCAs based on GANs (Otte et al., 2021), VAEs (Palm et al., 2022) or diffusion (Kalkhof et al., 2024) also have been utilized for generative tasks. (Grattarola et al., 2021) applied an NCA based approach on graph data.
+
+---
 
 ## NCATorch
 <div align="center">
@@ -99,6 +103,8 @@ Implementation of Neural Cellular Automata*]()
   </a>
   <p><em>Click to watch the toolkit demo video</em></p>
 </div>
+
+---
 
 This site is maintained by
 
