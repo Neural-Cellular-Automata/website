@@ -8,7 +8,7 @@ Over two decades later, while Cellular Automata have still been waiting for a su
 
 | **Figure 1** |
 | --- |
-|  |
+| ![CA figure 1](binaryCAv3.png) |
 | **Visualization of a simple, 1D CA with binary states.** **a)** shows the recursive update of grid states over time by applying the update rules $\mathcal{R}$ on the $3 \times 1$ cell neighborhoods shown in **b)**. |
 
 As time progresses, cell states are updated recursively and synchronously across all cells, based on a set of rules $\mathcal{R}$ that utilize the local neighborhood $\mathcal{N}(s_{i,t})$ to calculate the new cell state: $s_{i,t+1}:=\mathcal{R}[\mathcal{N}(s_{i,t})]$ (Schiff, 2011). Figure 1 shows the computation process and rules for a basic CA with binary states ($s_{(x,y),t} \in \{0,1\}$).
@@ -32,6 +32,11 @@ While all potential rules for a specific CA with predetermined discrete states $
 (Mordvintsev et al., 2020) introduced the concept of *Neural Cellular Automata* (NCA), which essentially substitutes the manually designed rules with artificial Neural Networks that are trained on problem-specific data. The following equation provides an abstract formalization of an NCA update function, where $f_\phi$ denotes an arbitrary neural network with learnable parameters $\phi$:
 
 $$s_{i,t+1}:=s_{i,t}+f_\phi[\mathcal{N}(s_{i,t})], \quad s_i \in \mathcal{S}$$
+
+| **Figure 2** |
+| --- |
+| ![NCA figure 2](nca.png) |
+| **Sketch of a basic CNN implementation of a 2D NCA** with a 3D state space. The initial grid is fed into a CNN architecture which updates the state additively and is called recursively for each time step. During training, the network is trained via usual gradient updates computed per timestep.. |
 
 Since $f_\phi$ is **space-invariant** with respect to the grid $\mathcal{G}$ (meaning the same $f_\phi$ is applied at all positions $i$ during a time step), (Mordvintsev et al., 2020) suggested an efficient implementation using "nested" *Convolutional Neural Networks (CNNs)* (LeCun et al., 1998).
 
