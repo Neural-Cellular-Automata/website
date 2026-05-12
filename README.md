@@ -10,7 +10,7 @@ Over two decades later, while Cellular Automata have still been waiting for a su
 *Cellular Automata* (CA) have been a subject of study since the 1940s, notably by *John von Neumann* (von Neumann, 1966) and others. At its core, *Cellular Automata* are discrete computational models, which consist of a finite, regular grid $\mathcal{G}$ of discrete cells. Each cell holds a discrete state $s_{i,t}$ at a given discrete time-step $t$.
 
 
-| **Figure 1** |
+| **A simple 1D CA Example** |
 | --- |
 | ![CA figure 1](binaryCAv3.png) |
 | **Visualization of a simple, 1D CA with binary states.** **a)** shows the recursive update of grid states over time by applying the update rules $\mathcal{R}$ on the $3 \times 1$ cell neighborhoods shown in **b)**. |
@@ -37,7 +37,7 @@ While all potential rules for a specific CA with predetermined discrete states $
 
 $$s_{i,t+1}:=s_{i,t}+f_\phi[\mathcal{N}(s_{i,t})], \quad s_i \in \mathcal{S}$$
 
-| **Figure 2** |
+| **NCA Implementation as Recursive CNN** |
 | --- |
 | ![NCA figure 2](nca.png) |
 | **Sketch of a basic CNN implementation of a 2D NCA** with a 3D state space. The initial grid is fed into a CNN architecture which updates the state additively and is called recursively for each time step. During training, the network is trained via usual gradient updates computed per timestep.. |
