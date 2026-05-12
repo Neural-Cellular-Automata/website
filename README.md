@@ -9,7 +9,7 @@ Over two decades later, while Cellular Automata have still been waiting for a su
 
 
 ## Cellular Automata
-*Cellular Automata* (CA) have been a subject of study since the 1940s, notably by *John von Neumann* (von Neumann, 1966) and others. At its core, *Cellular Automata* are discrete computational models, which consist of a finite, regular grid $\mathcal{G}$ of discrete cells. Each cell holds a discrete state $s_{i,t}$ at a given discrete time-step $t$.
+*Cellular Automata* (CA) have been a subject of study since the 1940s, notably by *John von Neumann* ([von Neumann, 1966](https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf)) and others. At its core, *Cellular Automata* are discrete computational models, which consist of a finite, regular grid $\mathcal{G}$ of discrete cells. Each cell holds a discrete state $s_{i,t}$ at a given discrete time-step $t$.
 
 
 | **A simple 1D CA Example** |
@@ -19,13 +19,13 @@ Over two decades later, while Cellular Automata have still been waiting for a su
 
 As time progresses, cell states are updated recursively and synchronously across all cells, based on a set of rules $\mathcal{R}$ that utilize the local neighborhood $\mathcal{N}(s_{i,t})$ to calculate the new cell state: $s_{i,t+1}:=\mathcal{R}[\mathcal{N}(s_{i,t})]$ (Schiff, 2011). Figure 1 shows the computation process and rules for a basic CA with binary states ($s_{(x,y),t} \in \{0,1\}$).
 
-*Cellular Automata* gained significant public recognition in the 1970s through *Conway's "Game of Life"* (Conway, 1970). This game employed a binary *Cellular Automaton* on a two-dimensional grid and update-rules based on a $3 \times 3$ neighborhood.
+*Cellular Automata* gained significant public recognition in the 1970s through *Conway's "Game of Life"* ([Conway, 1970](https://www.semanticscholar.org/paper/Game-of-Life-Izhikevich-Conway/69cba987e35cf58576e14d12ca6ccf830c9a472b)). This game employed a binary *Cellular Automaton* on a two-dimensional grid and update-rules based on a $3 \times 3$ neighborhood.
 
 #### **Applications and Theoretical Significance**
 
-Subsequent research demonstrated the broad applicability of CAs, including their use in *biological* (Bouligand, 1986; Coombes, 2009; Hatzikirou, 2012), *chemical* (Gerhardt, 1989), and *physical modeling* (Wolfram, 1983; Zaluska, 2021). Furthermore, certain CA configurations were shown to possess powerful theoretical computing properties, such as *Turing Completeness* (Cook, 2004) of certain CA configurations, thus establishing CAs as a *universal computing model*.
+Subsequent research demonstrated the broad applicability of CAs, including their use in *biological* ([Bouligand, 1986](https://link.springer.com/chapter/10.1007/978-3-642-82657-3_36); [Coombes, 2009](https://www.maths.nottingham.ac.uk/plp/pmzsc/pdfs/Seashells09.pdf); Hatzikirou, 2012), *chemical* ([Gerhardt, 1989](https://www.sciencedirect.com/science/article/abs/pii/016727898990081X), and *physical modeling* ([Wolfram, 1983](https://content.wolfram.com/sw-publications/2020/08/statistical-mechanics-cellular-automata.pdf); [Zaluska, 2021](https://www.mdpi.com/2073-4352/11/9/1135)). Furthermore, certain CA configurations were shown to possess powerful theoretical computing properties, such as *Turing Completeness* ([Cook, 2004](https://wpmedia.wolfram.com/sites/13/2018/02/15-1-1.pdf)) of certain CA configurations, thus establishing CAs as a *universal computing model*.
 
-This theoretical strength led *Stephen Wolfram* to propose his well-known work, ***"A New Kind Of Science"*** (Wolfram, 2003). In it, he suggested that inherently limited mathematical formulations could be replaced by more powerful *"simple programs"* and formulated a new formal framework for numerous scientific applications grounded in *Cellular Automata*.
+This theoretical strength led *Stephen Wolfram* to propose his well-known work, ***"A New Kind Of Science"*** ([Wolfram, 2003](https://www.wolframscience.com/nks/)). In it, he suggested that inherently limited mathematical formulations could be replaced by more powerful *"simple programs"* and formulated a new formal framework for numerous scientific applications grounded in *Cellular Automata*.
 
 ---
 
