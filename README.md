@@ -5,6 +5,7 @@
 
 Over two decades later, while Cellular Automata have still been waiting for a substantial breakthrough in scientific applications, recent research showed new and promising approaches which combine **Wolfram's** ideas with learnable Artificial Neural Networks: So-called ***Neural Cellular Automata (NCA)*** are able to learn the complex update rules of CA from data samples, allowing them to model complex, self-organizing generative systems.
 
+### Table of Content 
 * [Cellular Automata](#cellular-automata)
 * [Neural Cellular Automata](#neural-cellular-automata)
 * [NCAtorch PyTorch Library](#ncatorch)
