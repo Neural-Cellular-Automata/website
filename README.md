@@ -1,11 +1,11 @@
 
-*Stephen Wolfram* proclaimed in his 2003 seminal work ***``A New Kind Of Science''*** that simple recursive programs in the form of ***Cellular Automata (CA)*** are a promising approach to replace currently used mathematical formalizations, e.g. differential equations, to improve the modeling of complex systems.
+*Stephen Wolfram* proclaimed in his 2003 seminal work ***A New Kind Of Science*** that simple recursive programs in the form of ***Cellular Automata (CA)*** are a promising approach to replace currently used mathematical formalizations, e.g. differential equations, to improve the modeling of complex systems.
 
 Over two decades later, while Cellular Automata have still been waiting for a substantial breakthrough in scientific applications, recent research showed new and promising approaches which combine **Wolfram's** ideas with learnable Artificial Neural Networks: So-called ***Neural Cellular Automata (NCA)*** are able to learn the complex update rules of CA from data samples, allowing them to model complex, self-organizing generative systems.
 
 * [Cellular Automata](#cellular-automata)
 * [Neural Cellular Automata](#neural-cellular-automata)
-* [NCATroch PyTorch Library](#ncatorch)
+* [NCAtorch PyTorch Library](#ncatorch)
 
 
 ## Cellular Automata
