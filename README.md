@@ -97,6 +97,8 @@ Key features:
 ```
 * [OpenReview Link: *A New Kind of Network? Review and Reference
 Implementation of Neural Cellular Automata*]()
+* [Arxiv Link: *A New Kind of Network? Review and Reference
+Implementation of Neural Cellular Automata*](https://arxiv.org/abs/2604.24990)
 
 ### 📹 Demo Video
 
