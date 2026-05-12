@@ -33,11 +33,11 @@ This theoretical strength led *Stephen Wolfram* to propose his well-known work, 
 
 #### **From Fixed Rules to Neural Networks**
 
-*Traditional Cellular Automata (CA)*, as initially proposed by (Wolfram, 2003), (Conway, 1970), and (von Neumann, 1966), are constructed using a fixed set of **manually designed rules**. For instance, the update rule known as *"Rule #110"* (named after the binary coding of the rule outputs) is one of $2^{2^3}=256$ possible rules for a 1D, binary-state CA with a neighborhood size of 3, first introduced in (Wolfram, 2003).
+*Traditional Cellular Automata (CA)*, as initially proposed by ([Wolfram, 2003](https://www.wolframscience.com/nks/)), ([Conway, 1970](https://www.semanticscholar.org/paper/Game-of-Life-Izhikevich-Conway/69cba987e35cf58576e14d12ca6ccf830c9a472b)), and ([von Neumann, 1966](https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf)), are constructed using a fixed set of **manually designed rules**. For instance, the update rule known as *"Rule #110"* (named after the binary coding of the rule outputs) is one of $2^{2^3}=256$ possible rules for a 1D, binary-state CA with a neighborhood size of 3, first introduced in ([Wolfram, 2003](https://www.wolframscience.com/nks/)).
 
 While all potential rules for a specific CA with predetermined discrete states $\mathcal{S}$ and neighborhood-size $\|\mathcal{N}\|$ can be generated combinatorially, these rule-spaces unfortunately **grow exponentially**. Even the relatively simple 2D binary CA used in the *Game of Life* already has $2^{2^{3\times 3}}=2^{512}$ possible rules for its $3\times 3$ neighborhood. This challenge has made the idea of **learning more complex rules from data** — instead of designing them by hand — increasingly appealing.
 
-(Mordvintsev et al., 2020) introduced the concept of *Neural Cellular Automata* (NCA), which essentially substitutes the manually designed rules with artificial Neural Networks that are trained on problem-specific data. The following equation provides an abstract formalization of an NCA update function, where $f_\phi$ denotes an arbitrary neural network with learnable parameters $\phi$:
+([Mordvintsev et al., 2020](https://arxiv.org/abs/2008.04965)) introduced the concept of *Neural Cellular Automata* (NCA), which essentially substitutes the manually designed rules with artificial Neural Networks that are trained on problem-specific data. The following equation provides an abstract formalization of an NCA update function, where $f_\phi$ denotes an arbitrary neural network with learnable parameters $\phi$:
 
 $$s_{i,t+1}:=s_{i,t}+f_\phi[\mathcal{N}(s_{i,t})], \quad s_i \in \mathcal{S}$$
 
