@@ -54,7 +54,30 @@ The theoretical equivalence between "nested" CNNs and CA has been formally prove
 
 While the original work of (Mordvintsev et al., 2020) used a simple, *LeNet* (LeCun et al., 2002)-like, 1-layer convolutional NCA to show impressive self-organizing and classification tasks on images, later works extended the use of CNNs to more complex network architectures: (Sandler et al., 2020) showed NCA based image segmentation with larger CNNs, while (Tesfaldet et al., 2022) introduced an *attention* based implementation. NCAs based on GANs (Otte et al., 2021), VAEs (Palm et al., 2022) or diffusion (Kalkhof et al., 2024) also have been utilized for generative tasks. (Grattarola et al., 2021) applied an NCA based approach on graph data.
 
+## NCATorch
+<div align="center">
+  <img src="nca_torch_logo.png" alt="NCA-torch Logo" width="400"/>
+  <p>
+    <em>A comprehensive PyTorch-based framework for Neural Cellular Automata research and applications</em>
+  </p>
 
+  ---
+</div>
+
+### 🌟 Highlights
+
+**NCAtorch** is an open-source, modular research framework that combines classical Cellular Automata concepts with learnable neural networks. This implementation provides a unified codebase for training, evaluating, and visualizing Neural Cellular Automata across diverse tasks.
+
+
+
+Key features:
+
+- 🎯 **Modular Architecture**: Composable perception and update modules for flexible experimentation
+- 🎨 **Diverse Tasks**: Image generation (emoji, handbags), texture synthesis, self-classifying NCAs, video prediction
+- 🖼️ **Latent Space NCAs**: High-resolution generation (512x512) via pre-trained autoencoders
+- 🎮 **Interactive Visualization**: Real-time FastAPI-based web interface with painting tools
+- 📊 **Experiment Tracking**: Integrated [Weights & Biases](https://wandb.ai/site/) logging
+- ⚙️ **YAML Configuration**: Pydantic-validated configuration system
 
 ---
 
