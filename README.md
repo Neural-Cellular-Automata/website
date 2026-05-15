@@ -43,7 +43,7 @@ While all potential rules for a specific CA with predetermined discrete states $
 
 $$s_{i,t+1}:=s_{i,t}+f_\phi[\mathcal{N}(s_{i,t})], \quad s_i \in \mathcal{S}$$
 
-Since $f_\phi$ is **space-invariant** with respect to the grid $\mathcal{G}$ (meaning the same $f_\phi$ is applied at all positions $i$ during a time step), (Mordvintsev et al., 2020) suggested an efficient implementation using "nested" *Convolutional Neural Networks (CNNs)* (LeCun et al., 1998).
+Since $f_\phi$ is **space-invariant** with respect to the grid $\mathcal{G}$ (meaning the same $f_\phi$ is applied at all positions $i$ during a time step), ([Mordvintsev et al., 2020](https://arxiv.org/abs/2008.04965)) suggested an efficient implementation using "nested" *Convolutional Neural Networks (CNNs)* ([LeCun et al., 1998](https://hal.science/hal-03926082/document)).
 
 #### CNN Implementation 
 In its simplest form, the kernels (or filters) of a single convolutional layer model a **learnable perception** $\mathcal{P}_{\mathcal{N},\phi}$
@@ -54,7 +54,7 @@ implemented as $1 \times 1$ convolutions, which together implement learnable non
 
 $$s_{t+1}:=s_{t}+\mathcal{R_\phi}[s_t] := s_{t}+\mathcal{U}_\phi[\mathcal{P}_{\mathcal{N},\phi}*s_{t}]$$
 
-The theoretical equivalence between "nested" CNNs and CA has been formally proven by (Gilpin, 2019). It is important to note, however, that most NCA architectures relax the original CA property of discrete cell states, moving instead toward **continuous vector state representations** $s_{i,t} \in \mathbb{R}^n$.
+The theoretical equivalence between "nested" CNNs and CA has been formally proven by ([Gilpin, 2019](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.100.032402)). It is important to note, however, that most NCA architectures relax the original CA property of discrete cell states, moving instead toward **continuous vector state representations** $s_{i,t} \in \mathbb{R}^n$.
 
 | **NCA Implementation as Recursive CNN** |
 | --- |
@@ -62,13 +62,26 @@ The theoretical equivalence between "nested" CNNs and CA has been formally prove
 | **Sketch of a basic CNN implementation of a 2D NCA** with a 3D state space. The initial grid is fed into a CNN architecture which updates the state additively and is called recursively for each time step. During training, the network is trained via usual gradient updates computed per timestep.. |
 
 
+#### More Details on NCA Architectures, Training and Applications in our TMRL paper 
+
+```bibtex
+@article{ncatorch,
+  title={A New Kind of Network? Review and Reference Implementation of Neural Cellular Automata},
+  author={Martin Spitznagel and Janis Keuper},
+  journal={Transactions on Machine Learning Research (TMLR)},
+  year={2026}
+}
+```
+[![arXiv](https://img.shields.io/badge/arXiv-2604.24990-b31b1b.svg)](https://arxiv.org/abs/2604.24990)
+[![arXiv](https://img.shields.io/badge/TMLR-accepted-brightgreen.svg)](https://arxiv.org/abs/2604.24990)
+
 ---
 
 ## NCATorch
 <div align="center">
   <img src="nca_torch_logo.png" alt="NCA-torch Logo" width="400"/>
   <p>
-    <em>A comprehensive [PyTorch](https://pytorch.org/)-based framework for Neural Cellular Automata research and applications</em>
+    <em>A comprehensive <a href="https://pytorch.org">PyTorch</a> based framework for Neural Cellular Automata research and applications</em>
   </p>
 </div>
 
