@@ -127,9 +127,7 @@ Key features:
 
 ---
 ## aNCA
-### Spatial Reasoning with Adaptive Neural Cellular Automata (NeurIPS 2026)
-
-### 🧠 From Local Perception to Spatial Reasoning
+### 🧠 Spatial Reasoning with Adaptive Neural Cellular Automata (NeurIPS 2026)
 
 While Neural Cellular Automata (NCA) have demonstrated promising capabilities in generative modeling and self-organizing systems, their potential for **spatial reasoning** has remained largely unexplored.
 
