@@ -127,7 +127,7 @@ Key features:
 
 ---
 ## aNCA
-## Spatial Reasoning with Adaptive Neural Cellular Automata (NeurIPS 2026)
+### Spatial Reasoning with Adaptive Neural Cellular Automata (NeurIPS 2026)
 
 ### 🧠 From Local Perception to Spatial Reasoning
 
@@ -153,7 +153,7 @@ We evaluate aNCA on several established spatial reasoning benchmarks, demonstrat
 - 🧭 **Maze Solving:** 94.18% optimal shortest-path solutions on 30 × 30 mazes using only 256k parameters.
 - 🔍 **Interpretable Spatial Relations:** Visualizations of the learned perceptive fields reveal that aNCA automatically discovers Sudoku's row, column, and box constraints without explicitly encoding them.
 
-![Learned spatial relations](figure6_learned_spatial_relations.png)
+![Learned spatial relations](figure6.png)
 
 *Figure 6 from the paper: Learned adaptive perception patterns align with the spatial constraints of Sudoku.*
 
