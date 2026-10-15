@@ -9,7 +9,7 @@ permalink: /literature/
 <div class="literature" id="literature">
   <h1>NCA literature</h1>
   <p>Explore the foundations, methods and applications of cellular automata and neural cellular automata.</p>
-  <p class="literature-source">{{ site.data.literature.papers.size }} works from the <a href="{{ site.data.literature.source | escape }}">NCA Zotero library</a> · Updated {{ site.data.literature.retrieved }}.</p>
+  <p class="literature-source">{{ site.data.literature.papers.size }} works · <a href="{{ site.data.literature.source | escape }}">NCA Zotero library</a> and selected publications · Updated {{ site.data.literature.updated | default: site.data.literature.retrieved }}.</p>
 
   <div id="literature-controls" hidden>
     <label for="literature-search">Search the literature</label>
@@ -62,6 +62,6 @@ permalink: /literature/
     {% endfor %}
   </div>
   <div id="literature-groups" hidden></div>
-  <p class="literature-help literature-note">Bibliographic details follow Zotero, with missing links and selected venues supplemented from the original works. Duplicate records are combined. Keywords include library tags and editorial topic labels; summaries are brief editorial descriptions. This is a snapshot of the library, not a live feed.</p>
+  <p class="literature-help literature-note">This collection combines a snapshot of the Zotero library with selected publications from publishers and arXiv. Bibliographic details and publication venues are supplemented from the original works and author publication pages. Duplicate records are combined. Keywords include library tags and editorial topic labels; summaries are brief editorial descriptions. The collection is maintained as a snapshot, not a live feed.</p>
 </div>
 <script src="{{ '/assets/js/literature.js' | relative_url }}" defer></script>

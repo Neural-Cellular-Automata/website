@@ -4,6 +4,216 @@
   "source_record_count": 33,
   "papers": [
     {
+      "id": "web-2603-10055",
+      "zotero_keys": [],
+      "authors": [
+        "Dan Lee",
+        "Seungwook Han",
+        "Akarsh Kumar",
+        "Pulkit Agrawal"
+      ],
+      "title": "Training Language Models via Neural Cellular Automata",
+      "year": 2026,
+      "venue": "arXiv (preprint)",
+      "url": "https://arxiv.org/abs/2603.10055",
+      "summary": "Generates structured synthetic sequences with NCAs for a training phase before natural-language pretraining. Studies downstream language modelling and reasoning, including how cellular dynamics and transferred attention layers affect the benefit.",
+      "summary_source": "https://arxiv.org/abs/2603.10055",
+      "keywords": [
+        "Language Models",
+        "Synthetic Data",
+        "Transfer Learning"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-2506-22899",
+      "zotero_keys": [],
+      "authors": [
+        "Ehsan Pajouheshgar",
+        "Yitao Xu",
+        "Ali Abbasi",
+        "Alexander Mordvintsev",
+        "Wenzel Jakob",
+        "Sabine Süsstrunk"
+      ],
+      "title": "Neural Cellular Automata: From Cells to Pixels",
+      "year": 2026,
+      "venue": "SIGGRAPH 2026",
+      "url": "https://arxiv.org/abs/2506.22899",
+      "summary": "Pairs an NCA operating on a coarse grid with a lightweight implicit decoder that converts local cell states and coordinates into appearance. Enables arbitrary-resolution rendering while retaining cellular growth, regeneration and dynamics across grid and mesh domains.",
+      "summary_source": "https://arxiv.org/abs/2506.22899",
+      "keywords": [
+        "Generative",
+        "Textures",
+        "3D Generation",
+        "Acceleration"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-2608-30328",
+      "zotero_keys": [],
+      "authors": [
+        "Esha Saha",
+        "Hao Wang"
+      ],
+      "title": "Learning PDE Time-Stepping with Neural Cellular Automata",
+      "year": 2026,
+      "venue": "arXiv (preprint)",
+      "url": "https://arxiv.org/abs/2608.30328",
+      "summary": "Learns a shared local cellular rule as a time-stepping surrogate for partial differential equations. Tests long-horizon prediction on heat, advection, Burgers, Allen–Cahn and Fisher–KPP dynamics against other learned solvers.",
+      "summary_source": "https://arxiv.org/abs/2608.30328",
+      "keywords": [
+        "Physical Modelling",
+        "Dynamical Systems",
+        "PDEs"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-2609-21870",
+      "zotero_keys": [],
+      "authors": [
+        "Etienne Guichard",
+        "Stefano Nichele"
+      ],
+      "title": "Neural Cellular Automata Learn General Features in their Hidden Channels",
+      "year": 2026,
+      "venue": "arXiv (preprint)",
+      "url": "https://arxiv.org/abs/2609.21870",
+      "summary": "Analyses the features represented in hidden NCA channels and transfers a teacher’s internal states to a student during early training. Evaluates few-shot classification and scale generalisation on MNIST, separating feature extraction from collective label agreement.",
+      "summary_source": "https://arxiv.org/abs/2609.21870",
+      "keywords": [
+        "Classification",
+        "MNIST",
+        "Few-Shot Learning",
+        "Transfer Learning"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-rnca2026",
+      "zotero_keys": [],
+      "authors": [
+        "Malte Silbernagel",
+        "Albert Alonso",
+        "Jens Petersen",
+        "Bulat Ibragimov",
+        "Marleen de Bruijne",
+        "Madeleine K. Wyburd"
+      ],
+      "title": "RNCA: Self-Repairing Segmentation Masks",
+      "year": 2026,
+      "venue": "Medical Imaging with Deep Learning (MIDL 2026), PMLR 315",
+      "url": "https://proceedings.mlr.press/v315/silbernagel26a.html",
+      "summary": "Uses image-guided NCA updates to repair imperfect masks produced by other segmentation models. Learns to reconnect fragmented structures and remove loose regions, improving topological consistency for retinal vessels and myocardium.",
+      "summary_source": "https://proceedings.mlr.press/v315/silbernagel26a.html",
+      "keywords": [
+        "Segmentation",
+        "Medical Imaging",
+        "Robustness",
+        "Quality Control"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-2610-08518",
+      "zotero_keys": [],
+      "authors": [
+        "Martin Spitznagel",
+        "Janis Keuper"
+      ],
+      "title": "2D Spatial Reasoning with Adaptive Neural Cellular Automata",
+      "year": 2026,
+      "venue": "Advances in Neural Information Processing Systems (NeurIPS 2026, accepted)",
+      "url": "https://arxiv.org/abs/2610.08518",
+      "summary": "Introduces adaptive neural cellular automata with input-dependent perceptive fields based on deformable convolutions. Evaluates iterative spatial reasoning on Sudoku, image-based Sudoku and shortest-path maze tasks using compact models with inspectable communication patterns.",
+      "summary_source": "https://arxiv.org/abs/2610.08518",
+      "keywords": [
+        "Spatial Reasoning",
+        "Perception Modules",
+        "Deformable Convolutions",
+        "Sudoku",
+        "Pathfinding"
+      ],
+      "zotero_keywords": [],
+      "publication_source": "https://www.neural-cellular-automata.org/#anca"
+    },
+    {
+      "id": "web-2604-24990",
+      "zotero_keys": [],
+      "authors": [
+        "Martin Spitznagel",
+        "Janis Keuper"
+      ],
+      "title": "A New Kind of Network? Review and Reference Implementation of Neural Cellular Automata",
+      "year": 2026,
+      "venue": "Transactions on Machine Learning Research (TMLR)",
+      "url": "https://arxiv.org/abs/2604.24990",
+      "summary": "Reviews neural cellular automaton architectures, training and applications using a common modular notation. Introduces NCAtorch as an open-source reference implementation for reproducible experiments.",
+      "summary_source": "https://arxiv.org/abs/2604.24990",
+      "keywords": [
+        "Review",
+        "NCA Basics",
+        "Software"
+      ],
+      "zotero_keywords": [],
+      "publication_source": "https://www.keuper-labs.org/research/2026-a-new-kind-of-network-review-and-reference-implementation-of-neural-cellular-automata/"
+    },
+    {
+      "id": "web-2609-24595",
+      "zotero_keys": [],
+      "authors": [
+        "Nick Lemke",
+        "Niklas Ihm",
+        "John Kalkhof",
+        "Mirko Konstantin",
+        "Henry J. Krumb",
+        "Daniel M. Lang",
+        "Ehsan Pajouheshagar",
+        "Ario Sadafi",
+        "Arjan Kuijper",
+        "Karim Lekadir",
+        "Marco Lorenzi",
+        "Carsten Marr",
+        "Julia A. Schnabel",
+        "Anirban Mukhopadhyay"
+      ],
+      "title": "Applications of Neural Cellular Automata: State of the Art, Challenges and Opportunities",
+      "year": 2026,
+      "venue": "arXiv (preprint)",
+      "url": "https://arxiv.org/abs/2609.24595",
+      "summary": "Surveys NCA architectural variations and practical applications, with particular attention to medical image analysis. Discusses efficiency, robustness, segmentation, registration, depth estimation and opportunities for further research.",
+      "summary_source": "https://arxiv.org/abs/2609.24595",
+      "keywords": [
+        "Review",
+        "NCA Basics",
+        "Medical Imaging"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-2410-23368",
+      "zotero_keys": [],
+      "authors": [
+        "Amin Ranem",
+        "John Kalkhof",
+        "Anirban Mukhopadhyay"
+      ],
+      "title": "NCAdapt: Dynamic adaptation with domain-specific Neural Cellular Automata for continual hippocampus segmentation",
+      "year": 2025,
+      "venue": "WACV 2025",
+      "url": "https://arxiv.org/abs/2410.23368",
+      "summary": "Introduces domain-specific adaptation layers for an NCA backbone used in continual hippocampus segmentation. Freezes the shared backbone after initial training and learns compact additions for new domains to limit forgetting and retraining costs.",
+      "summary_source": "https://arxiv.org/abs/2410.23368",
+      "keywords": [
+        "Segmentation",
+        "Medical Imaging",
+        "Continual Learning"
+      ],
+      "zotero_keywords": []
+    },
+    {
       "id": "QVFCRXD8",
       "zotero_keys": [
         "QVFCRXD8"
@@ -76,6 +286,50 @@
       "zotero_keywords": []
     },
     {
+      "id": "web-10-1016-j-media-2025-103601",
+      "zotero_keys": [],
+      "authors": [
+        "John Kalkhof",
+        "Niklas Ihm",
+        "Tim Köhler",
+        "Bjarne Gregori",
+        "Anirban Mukhopadhyay"
+      ],
+      "title": "MED-NCA: Bio-inspired medical image segmentation",
+      "year": 2025,
+      "venue": "Medical Image Analysis",
+      "url": "https://doi.org/10.1016/j.media.2025.103601",
+      "summary": "Extends the Med-NCA and M3D-NCA line of work to a broader evaluation across eight anatomies and multiple imaging modalities. Studies compact segmentation models, robustness, quality control and tools for visualising cellular inference.",
+      "summary_source": "https://doi.org/10.1016/j.media.2025.103601",
+      "keywords": [
+        "Segmentation",
+        "Medical Imaging",
+        "Robustness",
+        "Quality Control"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-2506-15746",
+      "zotero_keys": [],
+      "authors": [
+        "Kevin Xu",
+        "Risto Miikkulainen"
+      ],
+      "title": "Neural Cellular Automata for ARC-AGI",
+      "year": 2025,
+      "venue": "ALIFE 2025",
+      "url": "https://arxiv.org/abs/2506.15746",
+      "summary": "Applies gradient-trained cellular update rules to abstract grid transformations from ARC-AGI. Evaluates few-shot generalisation and examines how architectural and training choices affect precise transformations of input grids.",
+      "summary_source": "https://arxiv.org/abs/2506.15746",
+      "keywords": [
+        "Spatial Reasoning",
+        "Few-Shot Learning",
+        "ARC-AGI"
+      ],
+      "zotero_keywords": []
+    },
+    {
       "id": "3GIKLQKK",
       "zotero_keys": [
         "3GIKLQKK"
@@ -94,6 +348,27 @@
         "Software",
         "Acceleration",
         "NCA Basics"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-10-1038-s41598-025-23997-7",
+      "zotero_keys": [],
+      "authors": [
+        "Mirela-Magdalena Catrina",
+        "Ioana Cristina Plajer",
+        "Alexandra Băicoianu"
+      ],
+      "title": "Multi-texture synthesis through signal responsive neural cellular automata",
+      "year": 2025,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-025-23997-7",
+      "summary": "Uses internally encoded genomic signals to generate several textures with a single compact NCA. Studies interpolation, coexistence and editing of learned textures while preserving regeneration after damage.",
+      "summary_source": "https://doi.org/10.1038/s41598-025-23997-7",
+      "keywords": [
+        "Generative",
+        "Textures",
+        "Control"
       ],
       "zotero_keywords": []
     },
@@ -141,6 +416,52 @@
         "Latent Models",
         "Image Restoration",
         "Acceleration"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-2311-02820",
+      "zotero_keys": [],
+      "authors": [
+        "Ehsan Pajouheshgar",
+        "Yitao Xu",
+        "Alexander Mordvintsev",
+        "Eyvind Niklasson",
+        "Tong Zhang",
+        "Sabine Süsstrunk"
+      ],
+      "title": "Mesh Neural Cellular Automata",
+      "year": 2024,
+      "venue": "ACM Transactions on Graphics — SIGGRAPH 2024",
+      "url": "https://arxiv.org/abs/2311.02820",
+      "summary": "Generalises cellular updates to vertices of triangle meshes to synthesise dynamic surface textures without UV maps. Supports image, text and motion supervision, generalisation to unseen meshes and interactive texture grafting.",
+      "summary_source": "https://arxiv.org/abs/2311.02820",
+      "keywords": [
+        "Graphs",
+        "Textures",
+        "3D Generation",
+        "Generative"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-2404-06279",
+      "zotero_keys": [],
+      "authors": [
+        "Ehsan Pajouheshgar",
+        "Yitao Xu",
+        "Sabine Süsstrunk"
+      ],
+      "title": "NoiseNCA: Noisy Seed Improves Spatio-Temporal Continuity of Neural Cellular Automata",
+      "year": 2024,
+      "venue": "ALIFE 2024",
+      "url": "https://arxiv.org/abs/2404.06279",
+      "summary": "Investigates whether texture NCAs learn continuous dynamics or overfit their training discretisation. Uses noisy initial states to improve consistency across spatial resolutions and time steps, enabling continuous controls over pattern scale and growth speed.",
+      "summary_source": "https://arxiv.org/abs/2404.06279",
+      "keywords": [
+        "Dynamical Systems",
+        "Textures",
+        "Robustness"
       ],
       "zotero_keywords": []
     },
@@ -193,6 +514,96 @@
       "zotero_keywords": []
     },
     {
+      "id": "web-10-1007-s40192-023-00335-1",
+      "zotero_keys": [],
+      "authors": [
+        "Paul Seibert",
+        "Alexander Raßloff",
+        "Yichi Zhang",
+        "Karl Kalina",
+        "Paul Reck",
+        "Daniel Peterseim",
+        "Markus Kästner"
+      ],
+      "title": "Reconstructing Microstructures From Statistical Descriptors Using Neural Cellular Automata",
+      "year": 2024,
+      "venue": "Integrating Materials and Manufacturing Innovation",
+      "url": "https://doi.org/10.1007/s40192-023-00335-1",
+      "summary": "Trains an NCA to reconstruct material microstructures from statistical descriptors, which can be obtained from a single reference. Separates training cost from output size so that large or repeated reconstructions can be generated efficiently.",
+      "summary_source": "https://doi.org/10.1007/s40192-023-00335-1",
+      "keywords": [
+        "Materials Science",
+        "Generative",
+        "Pattern Formation"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-2404-06406",
+      "zotero_keys": [],
+      "authors": [
+        "Yitao Xu",
+        "Ehsan Pajouheshgar",
+        "Sabine Süsstrunk"
+      ],
+      "title": "Emergent Dynamics in Neural Cellular Automata",
+      "year": 2024,
+      "venue": "ALIFE 2024",
+      "url": "https://arxiv.org/abs/2404.06406",
+      "summary": "Studies how the number of state channels and hidden neurons in the update network relate to emergent motion. Proposes an architectural design principle for generating dynamic rather than stationary NCA patterns.",
+      "summary_source": "https://arxiv.org/abs/2404.06406",
+      "keywords": [
+        "Dynamical Systems",
+        "Textures",
+        "Theory"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-2211-11417",
+      "zotero_keys": [],
+      "authors": [
+        "Ehsan Pajouheshgar",
+        "Yitao Xu",
+        "Tong Zhang",
+        "Sabine Süsstrunk"
+      ],
+      "title": "DyNCA: Real-time Dynamic Texture Synthesis Using Neural Cellular Automata",
+      "year": 2023,
+      "venue": "CVPR 2023",
+      "url": "https://arxiv.org/abs/2211.11417",
+      "summary": "Introduces DyNCA for real-time synthesis of dynamic textures with controllable motion. Learns appearance and motion from separate targets and supports arbitrary video duration and frame size after training.",
+      "summary_source": "https://arxiv.org/abs/2211.11417",
+      "keywords": [
+        "Generative",
+        "Textures",
+        "Video",
+        "Control"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-2302-10197",
+      "zotero_keys": [],
+      "authors": [
+        "Ettore Randazzo",
+        "Alexander Mordvintsev",
+        "Craig Fouts"
+      ],
+      "title": "Growing Steerable Neural Cellular Automata",
+      "year": 2023,
+      "venue": "ALIFE 2023",
+      "url": "https://arxiv.org/abs/2302.10197",
+      "summary": "Allows each cell to adjust its own orientation through an internal state. Studies how this steerable perception supports pattern growth, rotational symmetry breaking and chirality.",
+      "summary_source": "https://arxiv.org/abs/2302.10197",
+      "keywords": [
+        "Perception Modules",
+        "Morphogenesis",
+        "Symmetry"
+      ],
+      "zotero_keywords": []
+    },
+    {
       "id": "4XBBPM8D",
       "zotero_keys": [
         "4XBBPM8D"
@@ -212,6 +623,112 @@
       "keywords": [
         "Materials Science",
         "Physical Modelling"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-2309-02954",
+      "zotero_keys": [],
+      "authors": [
+        "John Kalkhof",
+        "Anirban Mukhopadhyay"
+      ],
+      "title": "M3D-NCA: Robust 3D Segmentation with Built-in Quality Control",
+      "year": 2023,
+      "venue": "MICCAI 2023",
+      "url": "https://arxiv.org/abs/2309.02954",
+      "summary": "Uses multilevel patchification to apply compact NCAs to three-dimensional medical image segmentation. Derives a quality metric from prediction variability to identify segmentation errors without relying solely on a final mask.",
+      "summary_source": "https://arxiv.org/abs/2309.02954",
+      "keywords": [
+        "Segmentation",
+        "Medical Imaging",
+        "Acceleration",
+        "Quality Control"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-2302-03473",
+      "zotero_keys": [],
+      "authors": [
+        "John Kalkhof",
+        "Camila González",
+        "Anirban Mukhopadhyay"
+      ],
+      "title": "Med-NCA: Robust and Lightweight Segmentation with Neural Cellular Automata",
+      "year": 2023,
+      "venue": "Information Processing in Medical Imaging (IPMI 2023)",
+      "url": "https://arxiv.org/abs/2302.03473",
+      "summary": "Introduces a two-stage NCA pipeline that communicates global context at low resolution before segmenting high-resolution patches. Evaluates compact models for hippocampus and prostate segmentation, including robustness and deployment on limited hardware.",
+      "summary_source": "https://arxiv.org/abs/2302.03473",
+      "keywords": [
+        "Segmentation",
+        "Medical Imaging",
+        "Acceleration",
+        "Robustness"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-10-1162-isal-a-00601",
+      "zotero_keys": [],
+      "authors": [
+        "Ritu Pande",
+        "Daniele Grattarola"
+      ],
+      "title": "Hierarchical Neural Cellular Automata",
+      "year": 2023,
+      "venue": "ALIFE 2023",
+      "url": "https://doi.org/10.1162/isal_a_00601",
+      "summary": "Explores hierarchical neural cellular automata as models of organisation across multiple scales. Investigates how locally interacting units can form higher-level, goal-directed structures.",
+      "summary_source": "https://doi.org/10.1162/isal_a_00601",
+      "keywords": [
+        "Hierarchical Models",
+        "Morphogenesis",
+        "Artificial Life"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-2205-01681",
+      "zotero_keys": [],
+      "authors": [
+        "Alexander Mordvintsev",
+        "Ettore Randazzo",
+        "Craig Fouts"
+      ],
+      "title": "Growing Isotropic Neural Cellular Automata",
+      "year": 2022,
+      "venue": "ALIFE 2022",
+      "url": "https://arxiv.org/abs/2205.01681",
+      "summary": "Introduces isotropic neural cellular automata whose update rules do not depend on a globally shared orientation. Uses structured seeds or rotation- and reflection-invariant training objectives to learn asymmetric patterns.",
+      "summary_source": "https://arxiv.org/abs/2205.01681",
+      "keywords": [
+        "NCA Basics",
+        "Morphogenesis",
+        "Symmetry"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-2204-11674",
+      "zotero_keys": [],
+      "authors": [
+        "Elias Najarro",
+        "Shyam Sudhakaran",
+        "Claire Glanois",
+        "Sebastian Risi"
+      ],
+      "title": "HyperNCA: Growing Developmental Networks with Neural Cellular Automata",
+      "year": 2022,
+      "venue": "ICLR 2022 — From Cells to Societies workshop",
+      "url": "https://arxiv.org/abs/2204.11674",
+      "summary": "Uses an NCA as a hypernetwork that grows the weights of a neural-network controller. Evaluates the resulting developmental networks on reinforcement-learning tasks and explores transformations between related tasks.",
+      "summary_source": "https://arxiv.org/abs/2204.11674",
+      "keywords": [
+        "Developmental Networks",
+        "Reinforcement Learning",
+        "Artificial Life"
       ],
       "zotero_keywords": []
     },
@@ -259,6 +776,51 @@
         "Generative",
         "Variational Models",
         "Image Data"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-2205-06806",
+      "zotero_keys": [],
+      "authors": [
+        "Shyam Sudhakaran",
+        "Elias Najarro",
+        "Sebastian Risi"
+      ],
+      "title": "Goal-Guided Neural Cellular Automata: Learning to Control Self-Organising Systems",
+      "year": 2022,
+      "venue": "ICLR 2022 — From Cells to Societies workshop",
+      "url": "https://arxiv.org/abs/2205.06806",
+      "summary": "Introduces goal encodings that steer cellular behaviour throughout growth rather than fixing a single target in advance. Investigates changing goals and maintaining task performance when only some cells receive the control signal.",
+      "summary_source": "https://arxiv.org/abs/2205.06806",
+      "keywords": [
+        "Control",
+        "Morphogenesis",
+        "Robustness"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-2203-12066",
+      "zotero_keys": [],
+      "authors": [
+        "Sidney Pontes-Filho",
+        "Kathryn Walker",
+        "Elias Najarro",
+        "Stefano Nichele",
+        "Sebastian Risi"
+      ],
+      "title": "A Unified Substrate for Body-Brain Co-evolution",
+      "year": 2022,
+      "venue": "GECCO 2022 Companion; ICLR 2022 Cells2Societies workshop",
+      "url": "https://arxiv.org/abs/2203.12066",
+      "summary": "Presents a neural cellular robot substrate in which a single NCA develops a modular robot’s body and controls its activity. Uses evolutionary optimisation and quality-diversity search to explore robot morphologies across benchmark tasks.",
+      "summary_source": "https://arxiv.org/abs/2203.12066",
+      "keywords": [
+        "Robotics",
+        "Control",
+        "Morphogenesis",
+        "Artificial Life"
       ],
       "zotero_keywords": []
     },
@@ -377,6 +939,32 @@
         "Generative",
         "Adversarial Learning",
         "Image Data"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "web-2103-08737",
+      "zotero_keys": [],
+      "authors": [
+        "Shyam Sudhakaran",
+        "Djordje Grbic",
+        "Siyan Li",
+        "Adam Katona",
+        "Elias Najarro",
+        "Claire Glanois",
+        "Sebastian Risi"
+      ],
+      "title": "Growing 3D Artefacts and Functional Machines with Neural Cellular Automata",
+      "year": 2021,
+      "venue": "ALIFE 2021",
+      "url": "https://arxiv.org/abs/2103.08737",
+      "summary": "Extends neural cellular automata to three-dimensional growth using Minecraft as an experimental environment. Demonstrates construction of complex structures and regeneration of parts of functional moving machines.",
+      "summary_source": "https://arxiv.org/abs/2103.08737",
+      "keywords": [
+        "Generative",
+        "Morphogenesis",
+        "3D Generation",
+        "Artificial Life"
       ],
       "zotero_keywords": []
     },
@@ -733,5 +1321,6 @@
         "CA Basics"
       ]
     }
-  ]
+  ],
+  "updated": "2026-10-15"
 }
