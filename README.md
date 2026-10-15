@@ -9,10 +9,12 @@ Over two decades later, while Cellular Automata have still been waiting for a su
 * [Cellular Automata](#cellular-automata)
 * [Neural Cellular Automata](#neural-cellular-automata)
 * [NCAtorch PyTorch Library](#ncatorch) [![TMLR](https://img.shields.io/badge/TMLR-accepted-brightgreen.svg)](https://openreview.net/pdf?id=NRwjj0ZLq0)
+* [Spatial Reasoning with NCA](#anca) [![NeurIPs](https://img.shields.io/badge/NeurIPs-accepted-brightgreen.svg)](https://arxiv.org/pdf/2610.08518)
+* [NCA Literature](#nca-literature)
 * [Literature — searchable papers and keyword groups](literature/)
 
 ## Cellular Automata
-*Cellular Automata* (CA) have been a subject of study since the 1940s, notably by *John von Neumann* ([von Neumann, 1966](https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf)) and others. At its core, *Cellular Automata* are discrete computational models, which consist of a finite, regular grid $\mathcal{G}$ of discrete cells. Each cell holds a discrete state $s_{i,t}$ at a given discrete time-step $t$.
+*Cellular Automata* (CA) have been a subject of study since the 1940s, notably by *John von Neumann* ([von Neumann, 1966](https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf)) and others. At its core, *Cellular Automata* are discrete computational models, which consist of a finite, regular grid $\mathcal{G}https://github.com/Neural-Cellular-Automata/website$ of discrete cells. Each cell holds a discrete state $s_{i,t}$ at a given discrete time-step $t$.
 
 
 | **A simple 1D CA Example** |
@@ -123,6 +125,61 @@ Key features:
   </a>
   <p><em>Click to watch the toolkit demo video</em></p>
 </div>
+
+---
+## aNCA
+### 🧠 Spatial Reasoning with Adaptive Neural Cellular Automata (NeurIPS 2026)
+
+While Neural Cellular Automata (NCA) have demonstrated promising capabilities in generative modeling and self-organizing systems, their potential for **spatial reasoning** has remained largely unexplored.
+
+In our recent paper **[2D Spatial Reasoning with Adaptive Neural Cellular Automata](https://arxiv.org/pdf/2610.08518)**, accepted at **NeurIPS 2026**, we introduce *Adaptive Neural Cellular Automata (aNCA)*, a novel architecture that enables NCAs to learn complex spatial relations on 2D grids.
+
+Unlike conventional NCAs, which use spatially invariant perception modules with fixed neighborhoods, aNCA employs **learnable, input-dependent perceptive fields** based on multi-head deformable convolutions. This allows individual cells to dynamically adapt where and how they gather information during the recursive update process.
+
+
+
+![Adaptive NCA architecture](figure5_adaptive_perception.png)
+
+*Figure 5: Comparison of fixed and adaptive perception patterns and the aNCA update architecture.*
+
+
+### 🌟 Highlights
+
+We evaluate aNCA on several established spatial reasoning benchmarks, demonstrating competitive performance with remarkably small models:
+
+- 🧩 **Sudoku Solving:** 87.78% solve rate on hard Sudoku puzzles using only 165k parameters.
+- 🔢 **Image-Based Sudoku:** 82.10% solve rate on hard handwritten Sudoku images, outperforming previous diffusion-based approaches.
+- 🧭 **Maze Solving:** 94.18% optimal shortest-path solutions on 30 × 30 mazes using only 256k parameters.
+- 🔍 **Interpretable Spatial Relations:** Visualizations of the learned perceptive fields reveal that aNCA automatically discovers Sudoku's row, column, and box constraints without explicitly encoding them.
+
+![Learned spatial relations](figure6.png)
+
+*Figure 6 from the paper: Learned adaptive perception patterns align with the spatial constraints of Sudoku.*
+
+These findings demonstrate that simple recursive architectures with adaptive local communication can learn powerful spatial reasoning strategies while requiring only a fraction of the parameters of competing approaches.
+
+### 📄 Paper and Implementation
+
+The proposed architecture, experimental setups, and benchmark implementations are available as an extension to our open-source **[NCATorch framework](https://github.com/mspitzna/NCAtorch/)**.
+
+**Paper:** [2D Spatial Reasoning with Adaptive Neural Cellular Automata (NeurIPS 2026)](https://arxiv.org/pdf/2610.08518)
+
+**Authors:** Martin Spitznagel and Janis Keuper — [Keuper Labs](https://www.keuper-labs.org/)
+
+### Cite NeurIPS Paper
+
+```bibtex
+@inproceedings{spitznagel2026adaptive,
+  title={2D Spatial Reasoning with Adaptive Neural Cellular Automata},
+  author={Martin Spitznagel and Janis Keuper},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2026}
+}
+```
+
+---
+## NCA Literature
+We maintain a [Zotero group](https://www.zotero.org/groups/6602123/nca_lit/library) with NCA related publications. Feel free to open an [issue](https://github.com/Neural-Cellular-Automata/website/issues/new/choose) if we are missing a paper ... 
 
 ---
 
