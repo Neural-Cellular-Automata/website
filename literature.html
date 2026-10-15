@@ -10,6 +10,7 @@ permalink: /literature/
   <h1>NCA literature</h1>
   <p>Explore the foundations, methods and applications of cellular automata and neural cellular automata.</p>
   <p class="literature-source">{{ site.data.literature.papers.size }} works · <a href="{{ site.data.literature.source | escape }}">NCA Zotero library</a> and selected publications · Updated {{ site.data.literature.updated | default: site.data.literature.retrieved }}.</p>
+  <p><a href="{{ '/assets/data/nca-literature.bib' | relative_url }}" download="nca-literature.bib">Download all {{ site.data.literature.papers.size }} citations as BibTeX (.bib)</a></p>
 
   <div id="literature-controls" hidden>
     <label for="literature-search">Search the literature</label>
@@ -23,8 +24,8 @@ permalink: /literature/
     <div class="literature-toolbar">
       <label for="literature-view">View
         <select id="literature-view">
-          <option value="groups">Keyword groups</option>
           <option value="list">All papers</option>
+          <option value="groups">Keyword groups</option>
         </select>
       </label>
       <label for="literature-sort">Sort
@@ -57,6 +58,14 @@ permalink: /literature/
         <summary>Short summary</summary>
         <p>{{ paper.summary | escape }}</p>
         <p class="literature-help">Editorial summary · <a href="{{ paper.summary_source | escape }}">Source</a></p>
+        <div class="paper-bibtex">
+          <div class="bibtex-toolbar">
+            <strong>BibTeX</strong>
+            <button type="button" class="copy-bibtex" aria-label="Copy BibTeX for {{ paper.title | escape }}" hidden>Copy BibTeX</button>
+            <span class="bibtex-status literature-help" role="status" aria-live="polite"></span>
+          </div>
+          <pre tabindex="0" aria-label="BibTeX citation for {{ paper.title | escape }}"><code>{{ paper.bibtex | escape }}</code></pre>
+        </div>
       </details>
     </article>
     {% endfor %}

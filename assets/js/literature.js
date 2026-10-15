@@ -17,7 +17,7 @@
     year: Number(element.dataset.year),
     author: normalize(element.dataset.author),
     title: normalize(element.dataset.title),
-    text: normalize(element.textContent)
+    text: normalize(Array.from(element.querySelectorAll('.paper-authors, h3, .paper-publication, .paper-keywords, details > p'), part => part.textContent).join(' '))
   }));
   const keywords = [...new Set(papers.flatMap(paper => paper.keywords))].sort((a, b) => a.localeCompare(b));
   let selected = '';
@@ -86,6 +86,28 @@
   }
 
   search.addEventListener('input', render);
+  // Delegate so the same control also works in cloned keyword-group cards.
+  root.querySelectorAll('.copy-bibtex').forEach(button => { button.hidden = false; });
+  root.addEventListener('click', async event => {
+    const button = event.target.closest('.copy-bibtex');
+    if (!button) return;
+    const container = button.closest('.paper-bibtex');
+    const code = container.querySelector('code');
+    const status = container.querySelector('.bibtex-status');
+    try {
+      await navigator.clipboard.writeText(code.textContent);
+      status.textContent = 'Copied!';
+    } catch {
+      // Keep copying possible when the clipboard API is blocked or unavailable.
+      const selection = window.getSelection();
+      const range = document.createRange();
+      range.selectNodeContents(code);
+      selection.removeAllRanges();
+      selection.addRange(range);
+      code.closest('pre').focus();
+      status.textContent = 'Citation selected. Press Ctrl+C or ⌘C to copy.';
+    }
+  });
   view.addEventListener('change', render);
   sort.addEventListener('change', render);
   document.getElementById('literature-reset').addEventListener('click', () => {

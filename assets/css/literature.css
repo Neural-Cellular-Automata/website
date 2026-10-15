@@ -42,6 +42,10 @@
 .literature details { background: #f7f9fa; padding: 9px 12px; border-radius: 4px; }
 .literature summary { cursor: pointer; color: #245a70; font-weight: 600; }
 .literature details p { margin: 10px 0 2px; }
+.literature .paper-bibtex { margin-top: 16px; }
+.literature .bibtex-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.literature .paper-bibtex pre { white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word; margin: 10px 0 0; padding: 12px; }
+.literature .paper-bibtex code { font-size: 12px; }
 .literature .keyword-group { margin-bottom: 30px; }
 .literature .keyword-group h2 { color: #245a70; margin-bottom: 6px; font-size: 20px; }
 .literature .group-count { font-weight: normal; color: #595959; font-size: 14px; }
