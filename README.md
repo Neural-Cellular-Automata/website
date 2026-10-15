@@ -9,6 +9,7 @@ Over two decades later, while Cellular Automata have still been waiting for a su
 * [Cellular Automata](#cellular-automata)
 * [Neural Cellular Automata](#neural-cellular-automata)
 * [NCAtorch PyTorch Library](#ncatorch) [![TMLR](https://img.shields.io/badge/TMLR-accepted-brightgreen.svg)](https://openreview.net/pdf?id=NRwjj0ZLq0)
+* [Literature — searchable papers and keyword groups](literature/)
 
 ## Cellular Automata
 *Cellular Automata* (CA) have been a subject of study since the 1940s, notably by *John von Neumann* ([von Neumann, 1966](https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf)) and others. At its core, *Cellular Automata* are discrete computational models, which consist of a finite, regular grid $\mathcal{G}$ of discrete cells. Each cell holds a discrete state $s_{i,t}$ at a given discrete time-step $t$.

@@ -1,0 +1,67 @@
+---
+layout: default
+title: Literature
+description: Search and explore research on neural cellular automata by author, title and keyword.
+permalink: /literature/
+---
+<link rel="stylesheet" href="{{ '/assets/css/literature.css' | relative_url }}">
+
+<div class="literature" id="literature">
+  <h1>NCA literature</h1>
+  <p>Explore the foundations, methods and applications of cellular automata and neural cellular automata.</p>
+  <p class="literature-source">{{ site.data.literature.papers.size }} works from the <a href="{{ site.data.literature.source | escape }}">NCA Zotero library</a> · Updated {{ site.data.literature.retrieved }}.</p>
+
+  <div id="literature-controls" hidden>
+    <label for="literature-search">Search the literature</label>
+    <input id="literature-search" type="search" placeholder="Title, author, keyword…" aria-describedby="search-help" autocomplete="off">
+    <p id="search-help" class="literature-help">Combine words to narrow your search. Accents and capitalisation don’t matter.</p>
+
+    <h2>Explore by keyword</h2>
+    <p class="literature-help">Choose a keyword to filter the papers. A work can belong to several groups.</p>
+    <div id="keyword-filters" class="keyword-filters" role="group" aria-label="Filter by keyword"></div>
+
+    <div class="literature-toolbar">
+      <label for="literature-view">View
+        <select id="literature-view">
+          <option value="groups">Keyword groups</option>
+          <option value="list">All papers</option>
+        </select>
+      </label>
+      <label for="literature-sort">Sort
+        <select id="literature-sort">
+          <option value="newest">Newest first</option>
+          <option value="oldest">Oldest first</option>
+          <option value="author">Author A–Z</option>
+          <option value="title">Title A–Z</option>
+        </select>
+      </label>
+      <button id="literature-reset" type="button">Reset filters</button>
+    </div>
+  </div>
+
+  <p id="literature-count" role="status" aria-live="polite" aria-atomic="true">{{ site.data.literature.papers.size }} works</p>
+  <p id="literature-empty" hidden>No papers match your search. Try fewer words or reset the filters.</p>
+  <noscript><p>Enable JavaScript to search and browse keyword groups. All citations, keywords and summaries are available below.</p></noscript>
+
+  <div id="literature-list">
+    {% for paper in site.data.literature.papers %}
+    <article class="paper" id="paper-{{ paper.id }}" data-keywords="{{ paper.keywords | jsonify | escape }}" data-year="{{ paper.year }}" data-author="{{ paper.authors | first | escape }}" data-title="{{ paper.title | escape }}">
+      <p class="paper-authors">{{ paper.authors | join: '; ' | escape }}</p>
+      <h3><a href="{{ paper.url | escape }}">{{ paper.title | escape }}</a></h3>
+      <p class="paper-publication"><strong>{{ paper.year }}</strong> · <cite>{{ paper.venue | escape }}</cite></p>
+      <ul class="paper-keywords" aria-label="Keywords">
+        {% for keyword in paper.keywords %}<li>{{ keyword | escape }}</li>{% endfor %}
+      </ul>
+      <p class="paper-links"><a href="{{ paper.url | escape }}">Original work <span aria-hidden="true">↗</span></a>{% for key in paper.zotero_keys %} · <a href="https://www.zotero.org/groups/6602123/nca_lit/items/{{ key | escape }}">Zotero{% if paper.zotero_keys.size > 1 %} {{ forloop.index }}{% endif %}</a>{% endfor %}</p>
+      <details>
+        <summary>Short summary</summary>
+        <p>{{ paper.summary | escape }}</p>
+        <p class="literature-help">Editorial summary · <a href="{{ paper.summary_source | escape }}">Source</a></p>
+      </details>
+    </article>
+    {% endfor %}
+  </div>
+  <div id="literature-groups" hidden></div>
+  <p class="literature-help literature-note">Bibliographic details follow Zotero, with missing links and selected venues supplemented from the original works. Duplicate records are combined. Keywords include library tags and editorial topic labels; summaries are brief editorial descriptions. This is a snapshot of the library, not a live feed.</p>
+</div>
+<script src="{{ '/assets/js/literature.js' | relative_url }}" defer></script>

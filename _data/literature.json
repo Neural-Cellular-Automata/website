@@ -1,0 +1,737 @@
+{
+  "source": "https://www.zotero.org/groups/6602123/nca_lit/library",
+  "retrieved": "2026-10-15",
+  "source_record_count": 33,
+  "papers": [
+    {
+      "id": "QVFCRXD8",
+      "zotero_keys": [
+        "QVFCRXD8"
+      ],
+      "authors": [
+        "Avni Mittal",
+        "John Kalkhof",
+        "Anirban Mukhopadhyay",
+        "Arnav Bhavsar"
+      ],
+      "title": "MedSegDiffNCA: Diffusion Models With Neural Cellular Automata for Skin Lesion Segmentation",
+      "year": 2025,
+      "venue": "arXiv (preprint)",
+      "url": "https://arxiv.org/abs/2501.02447",
+      "summary": "Combines neural cellular automata with diffusion models for skin lesion segmentation. Multilevel refinement and spatial and channel attention aim to reduce model size while retaining segmentation quality.",
+      "summary_source": "https://arxiv.org/abs/2501.02447",
+      "keywords": [
+        "Segmentation",
+        "Medical Imaging",
+        "Diffusion"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "Y57HMHUN",
+      "zotero_keys": [
+        "Y57HMHUN"
+      ],
+      "authors": [
+        "Benedikt Hartl",
+        "Michael Levin",
+        "Léo Pio-Lopez"
+      ],
+      "title": "Neural cellular automata: applications to biology and beyond classical AI",
+      "year": 2025,
+      "venue": "arXiv (preprint)",
+      "url": "https://arxiv.org/abs/2509.11131",
+      "summary": "Reviews neural cellular automata for biological and bioengineering applications. Discusses learned local interactions as models of development, regeneration and adaptive behaviour across biological scales.",
+      "summary_source": "https://arxiv.org/abs/2509.11131",
+      "keywords": [
+        "Review",
+        "Biology",
+        "Morphogenesis"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "AUAEA9N8",
+      "zotero_keys": [
+        "AUAEA9N8"
+      ],
+      "authors": [
+        "Etienne Guichard",
+        "Felix Reimers",
+        "Mia Kvalsund",
+        "Mikkel Lepperød",
+        "Stefano Nichele"
+      ],
+      "title": "EngramNCA: a Neural Cellular Automaton Model of Memory Transfer",
+      "year": 2025,
+      "venue": "arXiv (preprint)",
+      "url": "https://arxiv.org/abs/2504.11855",
+      "summary": "Separates visible cell states from private memory channels to model decentralised memory transfer. Interacting automata encode, propagate and grow different morphologies from shared internal information.",
+      "summary_source": "https://arxiv.org/abs/2504.11855",
+      "keywords": [
+        "Memory",
+        "Artificial Life",
+        "Morphogenesis"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "3GIKLQKK",
+      "zotero_keys": [
+        "3GIKLQKK"
+      ],
+      "authors": [
+        "Maxence Faldor",
+        "Antoine Cully"
+      ],
+      "title": "CAX: Cellular Automata Accelerated in JAX",
+      "year": 2025,
+      "venue": "arXiv (preprint)",
+      "url": "https://arxiv.org/abs/2410.02651",
+      "summary": "Presents a modular JAX library for hardware-accelerated cellular automaton research. Supports discrete, continuous and neural automata, with examples covering growth, classification and other emergent behaviours.",
+      "summary_source": "https://arxiv.org/abs/2410.02651",
+      "keywords": [
+        "Software",
+        "Acceleration",
+        "NCA Basics"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "YE2PXS46",
+      "zotero_keys": [
+        "YE2PXS46"
+      ],
+      "authors": [
+        "Alex D. Richardson",
+        "Tibor Antal",
+        "Richard A. Blythe",
+        "Linus J. Schumacher"
+      ],
+      "title": "Learning spatio-temporal patterns with Neural Cellular Automata",
+      "year": 2024,
+      "venue": "arXiv (preprint)",
+      "url": "https://arxiv.org/abs/2310.14809",
+      "summary": "Learns local update rules from image time series and partial differential equation trajectories. Extends NCA modelling to transient and stable spatial patterns, including Turing pattern dynamics.",
+      "summary_source": "https://arxiv.org/abs/2310.14809",
+      "keywords": [
+        "Dynamical Systems",
+        "Pattern Formation",
+        "Physical Modelling"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "8JQZAU86",
+      "zotero_keys": [
+        "8JQZAU86"
+      ],
+      "authors": [
+        "Andrea Menta",
+        "Alberto Archetti",
+        "Matteo Matteucci"
+      ],
+      "title": "Latent Neural Cellular Automata for Resource-Efficient Image Restoration",
+      "year": 2024,
+      "venue": "arXiv (preprint)",
+      "url": "https://arxiv.org/abs/2403.15525",
+      "summary": "Moves neural cellular automaton updates into the latent space of a pretrained autoencoder. Applies this approach to image restoration to lower computational requirements while preserving reconstruction quality.",
+      "summary_source": "https://arxiv.org/abs/2403.15525",
+      "keywords": [
+        "Latent Models",
+        "Image Restoration",
+        "Acceleration"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "9FP6HHUY",
+      "zotero_keys": [
+        "9FP6HHUY",
+        "9FIQKEZ5"
+      ],
+      "authors": [
+        "John Kalkhof",
+        "Arlene Kühn",
+        "Yannik Frisch",
+        "Anirban Mukhopadhyay"
+      ],
+      "title": "Frequency-Time Diffusion with Neural Cellular Automata",
+      "year": 2024,
+      "venue": "arXiv (preprint)",
+      "url": "https://arxiv.org/abs/2401.06291",
+      "summary": "Uses neural cellular automata as compact diffusion-model backbones. Adds Fourier-based diffusion to support communication over larger spatial distances, with image generation, inpainting and super-resolution examples.",
+      "summary_source": "https://arxiv.org/abs/2401.06291",
+      "keywords": [
+        "Diffusion",
+        "Generative",
+        "Image Data"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "WPCQB3ZE",
+      "zotero_keys": [
+        "WPCQB3ZE"
+      ],
+      "authors": [
+        "Marawan Elbatel",
+        "Konstantinos Kamnitsas",
+        "Xiaomeng Li"
+      ],
+      "title": "An Organism Starts with a Single Pix-Cell: A Neural Cellular Diffusion for High-Resolution Image Synthesis",
+      "year": 2024,
+      "venue": "MICCAI 2024",
+      "url": "https://arxiv.org/abs/2407.03018",
+      "summary": "Introduces generative cellular automata inspired by growth from a single cell. Evaluates cellular image synthesis as data augmentation for retinal disease classification in fundus and OCT images.",
+      "summary_source": "https://arxiv.org/abs/2407.03018",
+      "keywords": [
+        "Diffusion",
+        "Generative",
+        "Medical Imaging"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "4XBBPM8D",
+      "zotero_keys": [
+        "4XBBPM8D"
+      ],
+      "authors": [
+        "Jian Tang",
+        "Siddhant Kumar",
+        "Laura De Lorenzis",
+        "Ehsan Hosseini"
+      ],
+      "title": "Neural cellular automata for solidification microstructure modelling",
+      "year": 2023,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "url": "https://doi.org/10.1016/j.cma.2023.116197",
+      "summary": "Uses neural cellular automata to predict how metal microstructures develop during solidification. Learned local updates provide a data-driven alternative to conventional cellular automaton simulations.",
+      "summary_source": "https://doi.org/10.1016/j.cma.2023.116197",
+      "keywords": [
+        "Materials Science",
+        "Physical Modelling"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "7TDXCCDS",
+      "zotero_keys": [
+        "7TDXCCDS"
+      ],
+      "authors": [
+        "Mattie Tesfaldet",
+        "Derek Nowrouzezahrai",
+        "Chris Pal"
+      ],
+      "title": "Attention-based neural cellular automata",
+      "year": 2022,
+      "venue": "Advances in Neural Information Processing Systems",
+      "url": "https://arxiv.org/abs/2211.01233",
+      "summary": "Uses attention to parameterise interactions between neighbouring cells. Explores attention-based local update rules as an alternative to convolution-based neural cellular automata for pattern generation.",
+      "summary_source": "https://arxiv.org/abs/2211.01233",
+      "keywords": [
+        "Attention",
+        "Perception Modules",
+        "Generative"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "3THMD63D",
+      "zotero_keys": [
+        "3THMD63D"
+      ],
+      "authors": [
+        "Rasmus Berg Palm",
+        "Miguel González-Duque",
+        "Shyam Sudhakaran",
+        "Sebastian Risi"
+      ],
+      "title": "Variational neural cellular automata",
+      "year": 2022,
+      "venue": "ICLR 2022",
+      "url": "https://arxiv.org/abs/2201.12360",
+      "summary": "Combines a variational latent representation with a cellular growth process to generate diverse images. Studies reconstruction, probabilistic generation and recovery of learned stable patterns after damage.",
+      "summary_source": "https://arxiv.org/abs/2201.12360",
+      "keywords": [
+        "Generative",
+        "Variational Models",
+        "Image Data"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "TZVDTWZ7",
+      "zotero_keys": [
+        "TZVDTWZ7"
+      ],
+      "authors": [
+        "Daniele Grattarola",
+        "Lorenzo Livi",
+        "Cesare Alippi"
+      ],
+      "title": "Learning graph cellular automata",
+      "year": 2021,
+      "venue": "Advances in Neural Information Processing Systems",
+      "url": "https://proceedings.nips.cc/paper_files/paper/2021/hash/af87f7cdcda223c41c3f3ef05a3aaeea-Abstract.html",
+      "summary": "Extends learned cellular automaton rules from regular grids to arbitrary graphs using graph neural networks. Evaluates rule learning on irregular tessellations, flocking behaviour and convergence to target states.",
+      "summary_source": "https://proceedings.nips.cc/paper_files/paper/2021/hash/af87f7cdcda223c41c3f3ef05a3aaeea-Abstract.html",
+      "keywords": [
+        "Graphs",
+        "Perception Modules"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "PQJYUSSF",
+      "zotero_keys": [
+        "PQJYUSSF"
+      ],
+      "authors": [
+        "Ettore Randazzo",
+        "Alexander Mordvintsev",
+        "Eyvind Niklasson",
+        "Michael Levin"
+      ],
+      "title": "Adversarial Reprogramming of Neural Cellular Automata",
+      "year": 2021,
+      "venue": "Distill",
+      "url": "https://distill.pub/selforg/2021/adversarial/",
+      "summary": "Investigates how crafted perturbations can redirect the behaviour of a trained neural cellular automaton. Demonstrates reprogramming of self-organising dynamics without changing the learned update rule.",
+      "summary_source": "https://distill.pub/selforg/2021/adversarial/",
+      "keywords": [
+        "Adversarial Learning",
+        "Robustness",
+        "Morphogenesis"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "IAFV8T4H",
+      "zotero_keys": [
+        "IAFV8T4H"
+      ],
+      "authors": [
+        "Eyvind Niklasson",
+        "Alexander Mordvintsev",
+        "Ettore Randazzo",
+        "Michael Levin"
+      ],
+      "title": "Self-Organising Textures",
+      "year": 2021,
+      "venue": "Distill",
+      "url": "https://distill.pub/selforg/2021/textures/",
+      "summary": "Trains neural cellular automata to synthesise textures through repeated local updates. Explores texture formation as a self-organising process that can run on grids of different sizes.",
+      "summary_source": "https://distill.pub/selforg/2021/textures/",
+      "keywords": [
+        "Generative",
+        "Textures",
+        "Image Data"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "NC5R9TSU",
+      "zotero_keys": [
+        "NC5R9TSU"
+      ],
+      "authors": [
+        "Magdalena Załuska-Kotur",
+        "Hristina Popova",
+        "Vesselin Tonchev"
+      ],
+      "title": "Step bunches, nanowires and other vicinal “creatures”—ehrlich–schwoebel effect by cellular automata",
+      "year": 2021,
+      "venue": "Crystals",
+      "url": "https://www.mdpi.com/2073-4352/11/9/1135",
+      "summary": "Models crystal surface growth with cellular automata incorporating Ehrlich–Schwoebel barriers. Explores the emergence of step bunches, nanowires and other surface structures.",
+      "summary_source": "https://www.mdpi.com/2073-4352/11/9/1135",
+      "keywords": [
+        "Materials Science",
+        "Physical Modelling",
+        "Pattern Formation"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "9BMBUWNT",
+      "zotero_keys": [
+        "9BMBUWNT",
+        "63CFC4EP"
+      ],
+      "authors": [
+        "Maximilian Otte",
+        "Quentin Delfosse",
+        "Johannes Czech",
+        "Kristian Kersting"
+      ],
+      "title": "Generative adversarial neural cellular automata",
+      "year": 2021,
+      "venue": "arXiv preprint arXiv:2108.04328",
+      "url": "https://arxiv.org/abs/2108.04328",
+      "summary": "Introduces GANCA, combining neural cellular automata with adversarial training. A single automaton generates different outputs from different initial conditions and is evaluated on inputs beyond its training distribution.",
+      "summary_source": "https://arxiv.org/abs/2108.04328",
+      "keywords": [
+        "Generative",
+        "Adversarial Learning",
+        "Image Data"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "Y9LPUEMP",
+      "zotero_keys": [
+        "Y9LPUEMP"
+      ],
+      "authors": [
+        "Alexander Mordvintsev",
+        "Ettore Randazzo",
+        "Eyvind Niklasson",
+        "Michael Levin"
+      ],
+      "title": "Growing Neural Cellular Automata",
+      "year": 2020,
+      "venue": "Distill",
+      "url": "https://distill.pub/2020/growing-ca/",
+      "summary": "Trains a shared neural update rule to grow a target image from a single seed cell. Explores persistent patterns and regeneration after damage as models of morphogenesis.",
+      "summary_source": "https://distill.pub/2020/growing-ca/",
+      "keywords": [
+        "NCA Basics",
+        "Generative",
+        "Image Data",
+        "Morphogenesis"
+      ],
+      "zotero_keywords": [
+        "Generative",
+        "Image Data",
+        "NCA Basics"
+      ]
+    },
+    {
+      "id": "6FXKQCRS",
+      "zotero_keys": [
+        "6FXKQCRS"
+      ],
+      "authors": [
+        "Ettore Randazzo",
+        "Alexander Mordvintsev",
+        "Eyvind Niklasson",
+        "Michael Levin",
+        "Sam Greydanus"
+      ],
+      "title": "Self-classifying MNIST Digits",
+      "year": 2020,
+      "venue": "Distill",
+      "url": "https://distill.pub/2020/selforg/mnist/",
+      "summary": "Trains cells to recognise handwritten digits using only local communication. Digit labels emerge across the grid as cells exchange information through repeated neural updates.",
+      "summary_source": "https://distill.pub/2020/selforg/mnist/",
+      "keywords": [
+        "Classification",
+        "MNIST"
+      ],
+      "zotero_keywords": [
+        "Classification",
+        "MNIST"
+      ]
+    },
+    {
+      "id": "CXNI728H",
+      "zotero_keys": [
+        "CXNI728H"
+      ],
+      "authors": [
+        "Mark Sandler",
+        "Andrey Zhmoginov",
+        "Liangcheng Luo",
+        "Alexander Mordvintsev",
+        "Ettore Randazzo",
+        "et al."
+      ],
+      "title": "Image segmentation via cellular automata",
+      "year": 2020,
+      "venue": "arXiv preprint arXiv:2008.04965",
+      "url": "https://arxiv.org/abs/2008.04965",
+      "summary": "Formulates image segmentation as an iterative cellular process. Cells exchange local information and learn update rules that collectively produce pixel-level segmentation predictions.",
+      "summary_source": "https://arxiv.org/abs/2008.04965",
+      "keywords": [
+        "Segmentation",
+        "Computer Vision"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "YMRI6DD2",
+      "zotero_keys": [
+        "YMRI6DD2"
+      ],
+      "authors": [
+        "William Gilpin"
+      ],
+      "title": "Cellular automata as convolutional neural networks",
+      "year": 2019,
+      "venue": "Physical Review E",
+      "url": "https://doi.org/10.1103/PhysRevE.100.032402",
+      "summary": "Connects cellular automaton rules with convolutional neural network representations. Demonstrates how convolutional models can reproduce and learn local cellular dynamics.",
+      "summary_source": "https://doi.org/10.1103/PhysRevE.100.032402",
+      "keywords": [
+        "NCA Basics",
+        "Perception Modules"
+      ],
+      "zotero_keywords": [
+        "NCA Basics"
+      ]
+    },
+    {
+      "id": "54PCYE7M",
+      "zotero_keys": [
+        "54PCYE7M"
+      ],
+      "authors": [
+        "Jifeng Dai",
+        "Haozhi Qi",
+        "Yuwen Xiong",
+        "Yi Li",
+        "Guodong Zhang",
+        "Han Hu",
+        "Yichen Wei"
+      ],
+      "title": "Deformable Convolutional Networks",
+      "year": 2017,
+      "venue": "arXiv (preprint)",
+      "url": "https://arxiv.org/abs/1703.06211",
+      "summary": "Introduces convolution and region-of-interest pooling with learned spatial offsets. These modules adapt their sampling locations to image geometry rather than using a fixed sampling grid.",
+      "summary_source": "https://arxiv.org/abs/1703.06211",
+      "keywords": [
+        "Perception Modules",
+        "Computer Vision"
+      ],
+      "zotero_keywords": [
+        "Perception Modules"
+      ]
+    },
+    {
+      "id": "75KEELR5",
+      "zotero_keys": [
+        "75KEELR5"
+      ],
+      "authors": [
+        "Haralampos Hatzikirou",
+        "David Basanta",
+        "Matthias Simon",
+        "Karl Schaller",
+        "Andreas Deutsch"
+      ],
+      "title": "‘Go or grow’: the key to the emergence of invasion in tumour progression?",
+      "year": 2012,
+      "venue": "Mathematical medicine and biology: a journal of the IMA",
+      "url": "https://doi.org/10.1093/imammb/dqq011",
+      "summary": "Tests whether switching between migration and proliferation, together with oxygen shortage, can explain invasive tumour growth. Uses a lattice-gas cellular automaton to investigate the “go or grow” hypothesis.",
+      "summary_source": "https://doi.org/10.1093/imammb/dqq011",
+      "keywords": [
+        "Biology",
+        "Medical Modelling"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "6RVYVQUP",
+      "zotero_keys": [
+        "6RVYVQUP"
+      ],
+      "authors": [
+        "Joel L Schiff"
+      ],
+      "title": "Cellular automata: a discrete view of the world",
+      "year": 2011,
+      "venue": "John Wiley & Sons",
+      "url": "https://doi.org/10.1002/9781118032381",
+      "summary": "Provides an introduction to cellular automata, their dynamics and their use in modelling complex systems. Covers one- and two-dimensional rules, chaos and patterns arising from simple local interactions.",
+      "summary_source": "https://doi.org/10.1002/9781118032381",
+      "keywords": [
+        "CA Basics",
+        "Theory",
+        "Complex Systems"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "ABYJYDT4",
+      "zotero_keys": [
+        "ABYJYDT4"
+      ],
+      "authors": [
+        "Stephen Coombes"
+      ],
+      "title": "The geometry and pigmentation of seashells",
+      "year": 2009,
+      "venue": "Nottingham: Department of Mathematical Sciences, University of Nottingham",
+      "url": "https://www.maths.nottingham.ac.uk/plp/pmzsc/pdfs/Seashells09.pdf",
+      "summary": "Examines mathematical descriptions of seashell geometry and pigmentation. Connects shell growth and visible patterns with simple generative and pattern-forming mechanisms.",
+      "summary_source": "https://www.maths.nottingham.ac.uk/plp/pmzsc/pdfs/Seashells09.pdf",
+      "keywords": [
+        "Biology",
+        "Pattern Formation"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "7RMGP3MT",
+      "zotero_keys": [
+        "7RMGP3MT"
+      ],
+      "authors": [
+        "Matthew Cook",
+        "et al."
+      ],
+      "title": "Universality in elementary cellular automata",
+      "year": 2004,
+      "venue": "Complex systems",
+      "url": "https://www.complex-systems.com/abstracts/v15_i01_a01/",
+      "summary": "Proves that the elementary cellular automaton Rule 110 can perform universal computation. Establishes that a simple one-dimensional local rule can support arbitrarily complex computation.",
+      "summary_source": "https://www.complex-systems.com/abstracts/v15_i01_a01/",
+      "keywords": [
+        "CA Basics",
+        "Theory",
+        "Universal Computation"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "LVMT9RQE",
+      "zotero_keys": [
+        "LVMT9RQE"
+      ],
+      "authors": [
+        "Stephen Wolfram",
+        "M Gad-el-Hak"
+      ],
+      "title": "A new kind of science",
+      "year": 2003,
+      "venue": "Appl. Mech. Rev.",
+      "url": "https://doi.org/10.1115/1.1553433",
+      "summary": "A review of Wolfram’s proposal that simple computational rules can account for complex natural behaviour. The library citation refers to the 2003 Applied Mechanics Reviews entry; the summary source links to the underlying book.",
+      "summary_source": "https://www.wolframscience.com/nks/",
+      "keywords": [
+        "CA Basics",
+        "Complex Systems"
+      ],
+      "zotero_keywords": [
+        "CA Basics"
+      ]
+    },
+    {
+      "id": "A39C8XKJ",
+      "zotero_keys": [
+        "A39C8XKJ"
+      ],
+      "authors": [
+        "Martin Gerhardt",
+        "Heike Schuster"
+      ],
+      "title": "A cellular automaton describing the formation of spatially ordered structures in chemical systems",
+      "year": 1989,
+      "venue": "Physica D: Nonlinear Phenomena",
+      "url": "https://doi.org/10.1016/0167-2789(89)90081-X",
+      "summary": "Presents a cellular automaton for spatial pattern formation in chemical systems. Local excitation and recovery rules reproduce organised waves and related structures in reaction media.",
+      "summary_source": "https://doi.org/10.1016/0167-2789(89)90081-X",
+      "keywords": [
+        "Chemistry",
+        "Pattern Formation",
+        "Physical Modelling"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "78MS4SZ9",
+      "zotero_keys": [
+        "78MS4SZ9"
+      ],
+      "authors": [
+        "Y Bouligand"
+      ],
+      "title": "Fibroblasts, morphogenesis and cellular automata",
+      "year": 1986,
+      "venue": "Disordered Systems and Biological Organization",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-642-82657-3_36",
+      "summary": "Discusses fibroblasts and biological form through the perspective of cellular automata. Connects local cellular organisation with the modelling of morphogenesis.",
+      "summary_source": "https://link.springer.com/chapter/10.1007/978-3-642-82657-3_36",
+      "keywords": [
+        "Biology",
+        "Morphogenesis"
+      ],
+      "zotero_keywords": []
+    },
+    {
+      "id": "NNR5TXP5",
+      "zotero_keys": [
+        "NNR5TXP5"
+      ],
+      "authors": [
+        "Stephen Wolfram"
+      ],
+      "title": "Statistical mechanics of cellular automata",
+      "year": 1983,
+      "venue": "Reviews of modern physics",
+      "url": "https://doi.org/10.1103/RevModPhys.55.601",
+      "summary": "Studies cellular automata as discrete models of statistical physics. Examines how local deterministic rules generate ordered, periodic and complex collective behaviour.",
+      "summary_source": "https://doi.org/10.1103/RevModPhys.55.601",
+      "keywords": [
+        "CA Basics",
+        "Physical Modelling",
+        "Complex Systems"
+      ],
+      "zotero_keywords": [
+        "CA Basics"
+      ]
+    },
+    {
+      "id": "RZRACJHH",
+      "zotero_keys": [
+        "RZRACJHH"
+      ],
+      "authors": [
+        "Martin Gardner"
+      ],
+      "title": "MATHEMATICAL GAMES - The fantastic combinations of John Conway's new solitaire game \"life\"",
+      "year": 1970,
+      "venue": "Scientific American",
+      "url": "https://www.ibiblio.org/lifepatterns/october1970.html",
+      "summary": "Introduces Conway’s Game of Life through its local birth and survival rules. Shows how simple interactions produce moving, oscillating and growing configurations.",
+      "summary_source": "https://www.ibiblio.org/lifepatterns/october1970.html",
+      "keywords": [
+        "CA Basics",
+        "Artificial Life"
+      ],
+      "zotero_keywords": [
+        "CA Basics"
+      ]
+    },
+    {
+      "id": "UI29T3TY",
+      "zotero_keys": [
+        "UI29T3TY"
+      ],
+      "authors": [
+        "John Von Neumann",
+        "Arthur Walter Burks",
+        "et al."
+      ],
+      "title": "Theory of self-reproducing automata",
+      "year": 1966,
+      "venue": "University of Illinois Press",
+      "url": "https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf",
+      "summary": "Develops a formal account of machines capable of constructing copies of themselves. Its cellular automaton construction connects self-reproduction, universal computation and descriptions of machines.",
+      "summary_source": "https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf",
+      "keywords": [
+        "CA Basics",
+        "Artificial Life",
+        "Theory"
+      ],
+      "zotero_keywords": [
+        "CA Basics"
+      ]
+    }
+  ]
+}
