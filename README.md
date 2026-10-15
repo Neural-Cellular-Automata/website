@@ -10,8 +10,7 @@ Over two decades later, while Cellular Automata have still been waiting for a su
 * [Neural Cellular Automata](#neural-cellular-automata)
 * [NCAtorch PyTorch Library](#ncatorch) [![TMLR](https://img.shields.io/badge/TMLR-accepted-brightgreen.svg)](https://openreview.net/pdf?id=NRwjj0ZLq0)
 * [Spatial Reasoning with NCA](#anca) [![NeurIPs](https://img.shields.io/badge/NeurIPs-accepted-brightgreen.svg)](https://arxiv.org/pdf/2610.08518)
-* [NCA Literature](#nca-literature)
-* [Literature — searchable papers and keyword groups](literature/)
+* [NCA Literature — searchable papers and keyword groups](literature/)
 
 ## Cellular Automata
 *Cellular Automata* (CA) have been a subject of study since the 1940s, notably by *John von Neumann* ([von Neumann, 1966](https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf)) and others. At its core, *Cellular Automata* are discrete computational models, which consist of a finite, regular grid $\mathcal{G}https://github.com/Neural-Cellular-Automata/website$ of discrete cells. Each cell holds a discrete state $s_{i,t}$ at a given discrete time-step $t$.
@@ -179,7 +178,7 @@ The proposed architecture, experimental setups, and benchmark implementations ar
 
 ---
 ## NCA Literature
-We maintain a [Zotero group](https://www.zotero.org/groups/6602123/nca_lit/library) with NCA related publications. Feel free to open an [issue](https://github.com/Neural-Cellular-Automata/website/issues/new/choose) if we are missing a paper ... 
+We maintain a [literature overview](literature/) with NCA related publications. Feel free to open an [issue](https://github.com/Neural-Cellular-Automata/website/issues/new/choose) if we are missing a paper ... 
 
 ---
 
