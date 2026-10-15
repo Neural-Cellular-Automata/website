@@ -1,11 +1,8 @@
 {
-  "source": "https://www.zotero.org/groups/6602123/nca_lit/library",
   "retrieved": "2026-10-15",
-  "source_record_count": 33,
   "papers": [
     {
       "id": "web-2603-10055",
-      "zotero_keys": [],
       "authors": [
         "Dan Lee",
         "Seungwook Han",
@@ -23,12 +20,10 @@
         "Synthetic Data",
         "Transfer Learning"
       ],
-      "zotero_keywords": [],
       "bibtex": "@misc{web-2603-10055,\n  author = {Dan Lee and Seungwook Han and Akarsh Kumar and Pulkit Agrawal},\n  title = {{Training Language Models via Neural Cellular Automata}},\n  year = {2026},\n  howpublished = {arXiv (preprint)},\n  url = {https://arxiv.org/abs/2603.10055},\n  eprint = {2603.10055},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "web-2506-22899",
-      "zotero_keys": [],
       "authors": [
         "Ehsan Pajouheshgar",
         "Yitao Xu",
@@ -49,12 +44,10 @@
         "3D Generation",
         "Acceleration"
       ],
-      "zotero_keywords": [],
       "bibtex": "@inproceedings{web-2506-22899,\n  author = {Ehsan Pajouheshgar and Yitao Xu and Ali Abbasi and Alexander Mordvintsev and Wenzel Jakob and Sabine Süsstrunk},\n  title = {{Neural Cellular Automata: From Cells to Pixels}},\n  year = {2026},\n  booktitle = {SIGGRAPH 2026},\n  url = {https://arxiv.org/abs/2506.22899},\n  eprint = {2506.22899},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "web-2608-30328",
-      "zotero_keys": [],
       "authors": [
         "Esha Saha",
         "Hao Wang"
@@ -70,12 +63,10 @@
         "Dynamical Systems",
         "PDEs"
       ],
-      "zotero_keywords": [],
       "bibtex": "@misc{web-2608-30328,\n  author = {Esha Saha and Hao Wang},\n  title = {{Learning PDE Time-Stepping with Neural Cellular Automata}},\n  year = {2026},\n  howpublished = {arXiv (preprint)},\n  url = {https://arxiv.org/abs/2608.30328},\n  eprint = {2608.30328},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "web-2609-21870",
-      "zotero_keys": [],
       "authors": [
         "Etienne Guichard",
         "Stefano Nichele"
@@ -92,12 +83,10 @@
         "Few-Shot Learning",
         "Transfer Learning"
       ],
-      "zotero_keywords": [],
       "bibtex": "@misc{web-2609-21870,\n  author = {Etienne Guichard and Stefano Nichele},\n  title = {{Neural Cellular Automata Learn General Features in their Hidden Channels}},\n  year = {2026},\n  howpublished = {arXiv (preprint)},\n  url = {https://arxiv.org/abs/2609.21870},\n  eprint = {2609.21870},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "web-rnca2026",
-      "zotero_keys": [],
       "authors": [
         "Malte Silbernagel",
         "Albert Alonso",
@@ -118,12 +107,10 @@
         "Robustness",
         "Quality Control"
       ],
-      "zotero_keywords": [],
       "bibtex": "@inproceedings{web-rnca2026,\n  author = {Malte Silbernagel and Albert Alonso and Jens Petersen and Bulat Ibragimov and Marleen de Bruijne and Madeleine K. Wyburd},\n  title = {{RNCA: Self-Repairing Segmentation Masks}},\n  year = {2026},\n  booktitle = {Medical Imaging with Deep Learning (MIDL 2026), PMLR 315},\n  url = {https://proceedings.mlr.press/v315/silbernagel26a.html}\n}"
     },
     {
       "id": "web-2610-08518",
-      "zotero_keys": [],
       "authors": [
         "Martin Spitznagel",
         "Janis Keuper"
@@ -141,13 +128,11 @@
         "Sudoku",
         "Pathfinding"
       ],
-      "zotero_keywords": [],
       "publication_source": "https://www.neural-cellular-automata.org/#anca",
       "bibtex": "@inproceedings{web-2610-08518,\n  author = {Martin Spitznagel and Janis Keuper},\n  title = {{2D Spatial Reasoning with Adaptive Neural Cellular Automata}},\n  year = {2026},\n  booktitle = {Advances in Neural Information Processing Systems (NeurIPS 2026, accepted)},\n  url = {https://arxiv.org/abs/2610.08518},\n  eprint = {2610.08518},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "web-2604-24990",
-      "zotero_keys": [],
       "authors": [
         "Martin Spitznagel",
         "Janis Keuper"
@@ -163,13 +148,11 @@
         "NCA Basics",
         "Software"
       ],
-      "zotero_keywords": [],
       "publication_source": "https://www.keuper-labs.org/research/2026-a-new-kind-of-network-review-and-reference-implementation-of-neural-cellular-automata/",
       "bibtex": "@article{web-2604-24990,\n  author = {Martin Spitznagel and Janis Keuper},\n  title = {{A New Kind of Network? Review and Reference Implementation of Neural Cellular Automata}},\n  year = {2026},\n  journal = {Transactions on Machine Learning Research (TMLR)},\n  url = {https://arxiv.org/abs/2604.24990},\n  eprint = {2604.24990},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "web-2609-24595",
-      "zotero_keys": [],
       "authors": [
         "Nick Lemke",
         "Niklas Ihm",
@@ -197,12 +180,10 @@
         "NCA Basics",
         "Medical Imaging"
       ],
-      "zotero_keywords": [],
       "bibtex": "@misc{web-2609-24595,\n  author = {Nick Lemke and Niklas Ihm and John Kalkhof and Mirko Konstantin and Henry J. Krumb and Daniel M. Lang and Ehsan Pajouheshagar and Ario Sadafi and Arjan Kuijper and Karim Lekadir and Marco Lorenzi and Carsten Marr and Julia A. Schnabel and Anirban Mukhopadhyay},\n  title = {{Applications of Neural Cellular Automata: State of the Art, Challenges and Opportunities}},\n  year = {2026},\n  howpublished = {arXiv (preprint)},\n  url = {https://arxiv.org/abs/2609.24595},\n  eprint = {2609.24595},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "web-2410-23368",
-      "zotero_keys": [],
       "authors": [
         "Amin Ranem",
         "John Kalkhof",
@@ -219,14 +200,10 @@
         "Medical Imaging",
         "Continual Learning"
       ],
-      "zotero_keywords": [],
       "bibtex": "@inproceedings{web-2410-23368,\n  author = {Amin Ranem and John Kalkhof and Anirban Mukhopadhyay},\n  title = {{NCAdapt: Dynamic adaptation with domain-specific Neural Cellular Automata for continual hippocampus segmentation}},\n  year = {2025},\n  booktitle = {WACV 2025},\n  url = {https://arxiv.org/abs/2410.23368},\n  eprint = {2410.23368},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "QVFCRXD8",
-      "zotero_keys": [
-        "QVFCRXD8"
-      ],
       "authors": [
         "Avni Mittal",
         "John Kalkhof",
@@ -244,14 +221,10 @@
         "Medical Imaging",
         "Diffusion"
       ],
-      "zotero_keywords": [],
       "bibtex": "@misc{QVFCRXD8,\n  author = {Avni Mittal and John Kalkhof and Anirban Mukhopadhyay and Arnav Bhavsar},\n  title = {{MedSegDiffNCA: Diffusion Models With Neural Cellular Automata for Skin Lesion Segmentation}},\n  year = {2025},\n  howpublished = {arXiv (preprint)},\n  url = {https://arxiv.org/abs/2501.02447},\n  eprint = {2501.02447},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "Y57HMHUN",
-      "zotero_keys": [
-        "Y57HMHUN"
-      ],
       "authors": [
         "Benedikt Hartl",
         "Michael Levin",
@@ -268,14 +241,10 @@
         "Biology",
         "Morphogenesis"
       ],
-      "zotero_keywords": [],
       "bibtex": "@misc{Y57HMHUN,\n  author = {Benedikt Hartl and Michael Levin and Léo Pio-Lopez},\n  title = {{Neural cellular automata: applications to biology and beyond classical AI}},\n  year = {2025},\n  howpublished = {arXiv (preprint)},\n  url = {https://arxiv.org/abs/2509.11131},\n  eprint = {2509.11131},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "AUAEA9N8",
-      "zotero_keys": [
-        "AUAEA9N8"
-      ],
       "authors": [
         "Etienne Guichard",
         "Felix Reimers",
@@ -294,12 +263,10 @@
         "Artificial Life",
         "Morphogenesis"
       ],
-      "zotero_keywords": [],
       "bibtex": "@misc{AUAEA9N8,\n  author = {Etienne Guichard and Felix Reimers and Mia Kvalsund and Mikkel Lepperød and Stefano Nichele},\n  title = {{EngramNCA: a Neural Cellular Automaton Model of Memory Transfer}},\n  year = {2025},\n  howpublished = {arXiv (preprint)},\n  url = {https://arxiv.org/abs/2504.11855},\n  eprint = {2504.11855},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "web-10-1016-j-media-2025-103601",
-      "zotero_keys": [],
       "authors": [
         "John Kalkhof",
         "Niklas Ihm",
@@ -319,12 +286,10 @@
         "Robustness",
         "Quality Control"
       ],
-      "zotero_keywords": [],
       "bibtex": "@article{web-10-1016-j-media-2025-103601,\n  author = {John Kalkhof and Niklas Ihm and Tim Köhler and Bjarne Gregori and Anirban Mukhopadhyay},\n  title = {{MED-NCA: Bio-inspired medical image segmentation}},\n  year = {2025},\n  journal = {Medical Image Analysis},\n  url = {https://doi.org/10.1016/j.media.2025.103601},\n  doi = {10.1016/j.media.2025.103601}\n}"
     },
     {
       "id": "web-2506-15746",
-      "zotero_keys": [],
       "authors": [
         "Kevin Xu",
         "Risto Miikkulainen"
@@ -340,14 +305,10 @@
         "Few-Shot Learning",
         "ARC-AGI"
       ],
-      "zotero_keywords": [],
       "bibtex": "@inproceedings{web-2506-15746,\n  author = {Kevin Xu and Risto Miikkulainen},\n  title = {{Neural Cellular Automata for ARC-AGI}},\n  year = {2025},\n  booktitle = {ALIFE 2025},\n  url = {https://arxiv.org/abs/2506.15746},\n  eprint = {2506.15746},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "3GIKLQKK",
-      "zotero_keys": [
-        "3GIKLQKK"
-      ],
       "authors": [
         "Maxence Faldor",
         "Antoine Cully"
@@ -363,12 +324,10 @@
         "Acceleration",
         "NCA Basics"
       ],
-      "zotero_keywords": [],
       "bibtex": "@misc{3GIKLQKK,\n  author = {Maxence Faldor and Antoine Cully},\n  title = {{CAX: Cellular Automata Accelerated in JAX}},\n  year = {2025},\n  howpublished = {arXiv (preprint)},\n  url = {https://arxiv.org/abs/2410.02651},\n  eprint = {2410.02651},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "web-10-1038-s41598-025-23997-7",
-      "zotero_keys": [],
       "authors": [
         "Mirela-Magdalena Catrina",
         "Ioana Cristina Plajer",
@@ -385,14 +344,10 @@
         "Textures",
         "Control"
       ],
-      "zotero_keywords": [],
       "bibtex": "@article{web-10-1038-s41598-025-23997-7,\n  author = {Mirela-Magdalena Catrina and Ioana Cristina Plajer and Alexandra Băicoianu},\n  title = {{Multi-texture synthesis through signal responsive neural cellular automata}},\n  year = {2025},\n  journal = {Scientific Reports},\n  url = {https://doi.org/10.1038/s41598-025-23997-7},\n  doi = {10.1038/s41598-025-23997-7}\n}"
     },
     {
       "id": "YE2PXS46",
-      "zotero_keys": [
-        "YE2PXS46"
-      ],
       "authors": [
         "Alex D. Richardson",
         "Tibor Antal",
@@ -410,14 +365,10 @@
         "Pattern Formation",
         "Physical Modelling"
       ],
-      "zotero_keywords": [],
       "bibtex": "@misc{YE2PXS46,\n  author = {Alex D. Richardson and Tibor Antal and Richard A. Blythe and Linus J. Schumacher},\n  title = {{Learning spatio-temporal patterns with Neural Cellular Automata}},\n  year = {2024},\n  howpublished = {arXiv (preprint)},\n  url = {https://arxiv.org/abs/2310.14809},\n  eprint = {2310.14809},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "8JQZAU86",
-      "zotero_keys": [
-        "8JQZAU86"
-      ],
       "authors": [
         "Andrea Menta",
         "Alberto Archetti",
@@ -434,12 +385,10 @@
         "Image Restoration",
         "Acceleration"
       ],
-      "zotero_keywords": [],
       "bibtex": "@misc{8JQZAU86,\n  author = {Andrea Menta and Alberto Archetti and Matteo Matteucci},\n  title = {{Latent Neural Cellular Automata for Resource-Efficient Image Restoration}},\n  year = {2024},\n  howpublished = {arXiv (preprint)},\n  url = {https://arxiv.org/abs/2403.15525},\n  eprint = {2403.15525},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "web-2311-02820",
-      "zotero_keys": [],
       "authors": [
         "Ehsan Pajouheshgar",
         "Yitao Xu",
@@ -460,12 +409,10 @@
         "3D Generation",
         "Generative"
       ],
-      "zotero_keywords": [],
       "bibtex": "@article{web-2311-02820,\n  author = {Ehsan Pajouheshgar and Yitao Xu and Alexander Mordvintsev and Eyvind Niklasson and Tong Zhang and Sabine Süsstrunk},\n  title = {{Mesh Neural Cellular Automata}},\n  year = {2024},\n  journal = {ACM Transactions on Graphics — SIGGRAPH 2024},\n  url = {https://arxiv.org/abs/2311.02820},\n  eprint = {2311.02820},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "web-2404-06279",
-      "zotero_keys": [],
       "authors": [
         "Ehsan Pajouheshgar",
         "Yitao Xu",
@@ -482,15 +429,10 @@
         "Textures",
         "Robustness"
       ],
-      "zotero_keywords": [],
       "bibtex": "@inproceedings{web-2404-06279,\n  author = {Ehsan Pajouheshgar and Yitao Xu and Sabine Süsstrunk},\n  title = {{NoiseNCA: Noisy Seed Improves Spatio-Temporal Continuity of Neural Cellular Automata}},\n  year = {2024},\n  booktitle = {ALIFE 2024},\n  url = {https://arxiv.org/abs/2404.06279},\n  eprint = {2404.06279},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "9FP6HHUY",
-      "zotero_keys": [
-        "9FP6HHUY",
-        "9FIQKEZ5"
-      ],
       "authors": [
         "John Kalkhof",
         "Arlene Kühn",
@@ -508,14 +450,10 @@
         "Generative",
         "Image Data"
       ],
-      "zotero_keywords": [],
       "bibtex": "@misc{9FP6HHUY,\n  author = {John Kalkhof and Arlene Kühn and Yannik Frisch and Anirban Mukhopadhyay},\n  title = {{Frequency-Time Diffusion with Neural Cellular Automata}},\n  year = {2024},\n  howpublished = {arXiv (preprint)},\n  url = {https://arxiv.org/abs/2401.06291},\n  eprint = {2401.06291},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "WPCQB3ZE",
-      "zotero_keys": [
-        "WPCQB3ZE"
-      ],
       "authors": [
         "Marawan Elbatel",
         "Konstantinos Kamnitsas",
@@ -532,12 +470,10 @@
         "Generative",
         "Medical Imaging"
       ],
-      "zotero_keywords": [],
       "bibtex": "@inproceedings{WPCQB3ZE,\n  author = {Marawan Elbatel and Konstantinos Kamnitsas and Xiaomeng Li},\n  title = {{An Organism Starts with a Single Pix-Cell: A Neural Cellular Diffusion for High-Resolution Image Synthesis}},\n  year = {2024},\n  booktitle = {MICCAI 2024},\n  url = {https://arxiv.org/abs/2407.03018},\n  eprint = {2407.03018},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "web-10-1007-s40192-023-00335-1",
-      "zotero_keys": [],
       "authors": [
         "Paul Seibert",
         "Alexander Raßloff",
@@ -558,12 +494,10 @@
         "Generative",
         "Pattern Formation"
       ],
-      "zotero_keywords": [],
       "bibtex": "@article{web-10-1007-s40192-023-00335-1,\n  author = {Paul Seibert and Alexander Raßloff and Yichi Zhang and Karl Kalina and Paul Reck and Daniel Peterseim and Markus Kästner},\n  title = {{Reconstructing Microstructures From Statistical Descriptors Using Neural Cellular Automata}},\n  year = {2024},\n  journal = {Integrating Materials and Manufacturing Innovation},\n  url = {https://doi.org/10.1007/s40192-023-00335-1},\n  doi = {10.1007/s40192-023-00335-1}\n}"
     },
     {
       "id": "web-2404-06406",
-      "zotero_keys": [],
       "authors": [
         "Yitao Xu",
         "Ehsan Pajouheshgar",
@@ -580,12 +514,10 @@
         "Textures",
         "Theory"
       ],
-      "zotero_keywords": [],
       "bibtex": "@inproceedings{web-2404-06406,\n  author = {Yitao Xu and Ehsan Pajouheshgar and Sabine Süsstrunk},\n  title = {{Emergent Dynamics in Neural Cellular Automata}},\n  year = {2024},\n  booktitle = {ALIFE 2024},\n  url = {https://arxiv.org/abs/2404.06406},\n  eprint = {2404.06406},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "web-2211-11417",
-      "zotero_keys": [],
       "authors": [
         "Ehsan Pajouheshgar",
         "Yitao Xu",
@@ -604,12 +536,10 @@
         "Video",
         "Control"
       ],
-      "zotero_keywords": [],
       "bibtex": "@inproceedings{web-2211-11417,\n  author = {Ehsan Pajouheshgar and Yitao Xu and Tong Zhang and Sabine Süsstrunk},\n  title = {{DyNCA: Real-time Dynamic Texture Synthesis Using Neural Cellular Automata}},\n  year = {2023},\n  booktitle = {CVPR 2023},\n  url = {https://arxiv.org/abs/2211.11417},\n  eprint = {2211.11417},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "web-2302-10197",
-      "zotero_keys": [],
       "authors": [
         "Ettore Randazzo",
         "Alexander Mordvintsev",
@@ -626,14 +556,10 @@
         "Morphogenesis",
         "Symmetry"
       ],
-      "zotero_keywords": [],
       "bibtex": "@inproceedings{web-2302-10197,\n  author = {Ettore Randazzo and Alexander Mordvintsev and Craig Fouts},\n  title = {{Growing Steerable Neural Cellular Automata}},\n  year = {2023},\n  booktitle = {ALIFE 2023},\n  url = {https://arxiv.org/abs/2302.10197},\n  eprint = {2302.10197},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "4XBBPM8D",
-      "zotero_keys": [
-        "4XBBPM8D"
-      ],
       "authors": [
         "Jian Tang",
         "Siddhant Kumar",
@@ -650,12 +576,10 @@
         "Materials Science",
         "Physical Modelling"
       ],
-      "zotero_keywords": [],
       "bibtex": "@article{4XBBPM8D,\n  author = {Jian Tang and Siddhant Kumar and Laura De Lorenzis and Ehsan Hosseini},\n  title = {{Neural cellular automata for solidification microstructure modelling}},\n  year = {2023},\n  journal = {Computer Methods in Applied Mechanics and Engineering},\n  url = {https://doi.org/10.1016/j.cma.2023.116197},\n  doi = {10.1016/j.cma.2023.116197}\n}"
     },
     {
       "id": "web-2309-02954",
-      "zotero_keys": [],
       "authors": [
         "John Kalkhof",
         "Anirban Mukhopadhyay"
@@ -672,12 +596,10 @@
         "Acceleration",
         "Quality Control"
       ],
-      "zotero_keywords": [],
       "bibtex": "@inproceedings{web-2309-02954,\n  author = {John Kalkhof and Anirban Mukhopadhyay},\n  title = {{M3D-NCA: Robust 3D Segmentation with Built-in Quality Control}},\n  year = {2023},\n  booktitle = {MICCAI 2023},\n  url = {https://arxiv.org/abs/2309.02954},\n  eprint = {2309.02954},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "web-2302-03473",
-      "zotero_keys": [],
       "authors": [
         "John Kalkhof",
         "Camila González",
@@ -695,12 +617,10 @@
         "Acceleration",
         "Robustness"
       ],
-      "zotero_keywords": [],
       "bibtex": "@inproceedings{web-2302-03473,\n  author = {John Kalkhof and Camila González and Anirban Mukhopadhyay},\n  title = {{Med-NCA: Robust and Lightweight Segmentation with Neural Cellular Automata}},\n  year = {2023},\n  booktitle = {Information Processing in Medical Imaging (IPMI 2023)},\n  url = {https://arxiv.org/abs/2302.03473},\n  eprint = {2302.03473},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "web-10-1162-isal-a-00601",
-      "zotero_keys": [],
       "authors": [
         "Ritu Pande",
         "Daniele Grattarola"
@@ -716,12 +636,10 @@
         "Morphogenesis",
         "Artificial Life"
       ],
-      "zotero_keywords": [],
       "bibtex": "@inproceedings{web-10-1162-isal-a-00601,\n  author = {Ritu Pande and Daniele Grattarola},\n  title = {{Hierarchical Neural Cellular Automata}},\n  year = {2023},\n  booktitle = {ALIFE 2023},\n  url = {https://doi.org/10.1162/isal_a_00601},\n  doi = {10.1162/isal_a_00601}\n}"
     },
     {
       "id": "web-2205-01681",
-      "zotero_keys": [],
       "authors": [
         "Alexander Mordvintsev",
         "Ettore Randazzo",
@@ -738,12 +656,10 @@
         "Morphogenesis",
         "Symmetry"
       ],
-      "zotero_keywords": [],
       "bibtex": "@inproceedings{web-2205-01681,\n  author = {Alexander Mordvintsev and Ettore Randazzo and Craig Fouts},\n  title = {{Growing Isotropic Neural Cellular Automata}},\n  year = {2022},\n  booktitle = {ALIFE 2022},\n  url = {https://arxiv.org/abs/2205.01681},\n  eprint = {2205.01681},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "web-2204-11674",
-      "zotero_keys": [],
       "authors": [
         "Elias Najarro",
         "Shyam Sudhakaran",
@@ -761,14 +677,10 @@
         "Reinforcement Learning",
         "Artificial Life"
       ],
-      "zotero_keywords": [],
       "bibtex": "@inproceedings{web-2204-11674,\n  author = {Elias Najarro and Shyam Sudhakaran and Claire Glanois and Sebastian Risi},\n  title = {{HyperNCA: Growing Developmental Networks with Neural Cellular Automata}},\n  year = {2022},\n  booktitle = {ICLR 2022 — From Cells to Societies workshop},\n  url = {https://arxiv.org/abs/2204.11674},\n  eprint = {2204.11674},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "7TDXCCDS",
-      "zotero_keys": [
-        "7TDXCCDS"
-      ],
       "authors": [
         "Mattie Tesfaldet",
         "Derek Nowrouzezahrai",
@@ -785,14 +697,10 @@
         "Perception Modules",
         "Generative"
       ],
-      "zotero_keywords": [],
       "bibtex": "@inproceedings{7TDXCCDS,\n  author = {Mattie Tesfaldet and Derek Nowrouzezahrai and Chris Pal},\n  title = {{Attention-based neural cellular automata}},\n  year = {2022},\n  booktitle = {Advances in Neural Information Processing Systems},\n  url = {https://arxiv.org/abs/2211.01233},\n  eprint = {2211.01233},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "3THMD63D",
-      "zotero_keys": [
-        "3THMD63D"
-      ],
       "authors": [
         "Rasmus Berg Palm",
         "Miguel González-Duque",
@@ -810,12 +718,10 @@
         "Variational Models",
         "Image Data"
       ],
-      "zotero_keywords": [],
       "bibtex": "@inproceedings{3THMD63D,\n  author = {Rasmus Berg Palm and Miguel González-Duque and Shyam Sudhakaran and Sebastian Risi},\n  title = {{Variational neural cellular automata}},\n  year = {2022},\n  booktitle = {ICLR 2022},\n  url = {https://arxiv.org/abs/2201.12360},\n  eprint = {2201.12360},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "web-2205-06806",
-      "zotero_keys": [],
       "authors": [
         "Shyam Sudhakaran",
         "Elias Najarro",
@@ -832,12 +738,10 @@
         "Morphogenesis",
         "Robustness"
       ],
-      "zotero_keywords": [],
       "bibtex": "@inproceedings{web-2205-06806,\n  author = {Shyam Sudhakaran and Elias Najarro and Sebastian Risi},\n  title = {{Goal-Guided Neural Cellular Automata: Learning to Control Self-Organising Systems}},\n  year = {2022},\n  booktitle = {ICLR 2022 — From Cells to Societies workshop},\n  url = {https://arxiv.org/abs/2205.06806},\n  eprint = {2205.06806},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "web-2203-12066",
-      "zotero_keys": [],
       "authors": [
         "Sidney Pontes-Filho",
         "Kathryn Walker",
@@ -857,14 +761,10 @@
         "Morphogenesis",
         "Artificial Life"
       ],
-      "zotero_keywords": [],
       "bibtex": "@inproceedings{web-2203-12066,\n  author = {Sidney Pontes-Filho and Kathryn Walker and Elias Najarro and Stefano Nichele and Sebastian Risi},\n  title = {{A Unified Substrate for Body-Brain Co-evolution}},\n  year = {2022},\n  booktitle = {GECCO 2022 Companion; ICLR 2022 Cells2Societies workshop},\n  url = {https://arxiv.org/abs/2203.12066},\n  eprint = {2203.12066},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "TZVDTWZ7",
-      "zotero_keys": [
-        "TZVDTWZ7"
-      ],
       "authors": [
         "Daniele Grattarola",
         "Lorenzo Livi",
@@ -880,14 +780,10 @@
         "Graphs",
         "Perception Modules"
       ],
-      "zotero_keywords": [],
       "bibtex": "@inproceedings{TZVDTWZ7,\n  author = {Daniele Grattarola and Lorenzo Livi and Cesare Alippi},\n  title = {{Learning graph cellular automata}},\n  year = {2021},\n  booktitle = {Advances in Neural Information Processing Systems},\n  url = {https://proceedings.nips.cc/paper_files/paper/2021/hash/af87f7cdcda223c41c3f3ef05a3aaeea-Abstract.html}\n}"
     },
     {
       "id": "PQJYUSSF",
-      "zotero_keys": [
-        "PQJYUSSF"
-      ],
       "authors": [
         "Ettore Randazzo",
         "Alexander Mordvintsev",
@@ -905,14 +801,10 @@
         "Robustness",
         "Morphogenesis"
       ],
-      "zotero_keywords": [],
       "bibtex": "@article{PQJYUSSF,\n  author = {Ettore Randazzo and Alexander Mordvintsev and Eyvind Niklasson and Michael Levin},\n  title = {{Adversarial Reprogramming of Neural Cellular Automata}},\n  year = {2021},\n  journal = {Distill},\n  url = {https://distill.pub/selforg/2021/adversarial/}\n}"
     },
     {
       "id": "IAFV8T4H",
-      "zotero_keys": [
-        "IAFV8T4H"
-      ],
       "authors": [
         "Eyvind Niklasson",
         "Alexander Mordvintsev",
@@ -930,14 +822,10 @@
         "Textures",
         "Image Data"
       ],
-      "zotero_keywords": [],
       "bibtex": "@article{IAFV8T4H,\n  author = {Eyvind Niklasson and Alexander Mordvintsev and Ettore Randazzo and Michael Levin},\n  title = {{Self-Organising Textures}},\n  year = {2021},\n  journal = {Distill},\n  url = {https://distill.pub/selforg/2021/textures/}\n}"
     },
     {
       "id": "NC5R9TSU",
-      "zotero_keys": [
-        "NC5R9TSU"
-      ],
       "authors": [
         "Magdalena Załuska-Kotur",
         "Hristina Popova",
@@ -954,15 +842,10 @@
         "Physical Modelling",
         "Pattern Formation"
       ],
-      "zotero_keywords": [],
       "bibtex": "@article{NC5R9TSU,\n  author = {Magdalena Załuska-Kotur and Hristina Popova and Vesselin Tonchev},\n  title = {{Step bunches, nanowires and other vicinal “creatures”—ehrlich–schwoebel effect by cellular automata}},\n  year = {2021},\n  journal = {Crystals},\n  url = {https://www.mdpi.com/2073-4352/11/9/1135}\n}"
     },
     {
       "id": "9BMBUWNT",
-      "zotero_keys": [
-        "9BMBUWNT",
-        "63CFC4EP"
-      ],
       "authors": [
         "Maximilian Otte",
         "Quentin Delfosse",
@@ -980,12 +863,10 @@
         "Adversarial Learning",
         "Image Data"
       ],
-      "zotero_keywords": [],
       "bibtex": "@misc{9BMBUWNT,\n  author = {Maximilian Otte and Quentin Delfosse and Johannes Czech and Kristian Kersting},\n  title = {{Generative adversarial neural cellular automata}},\n  year = {2021},\n  howpublished = {arXiv preprint arXiv:2108.04328},\n  url = {https://arxiv.org/abs/2108.04328},\n  eprint = {2108.04328},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "web-2103-08737",
-      "zotero_keys": [],
       "authors": [
         "Shyam Sudhakaran",
         "Djordje Grbic",
@@ -1007,14 +888,10 @@
         "3D Generation",
         "Artificial Life"
       ],
-      "zotero_keywords": [],
       "bibtex": "@inproceedings{web-2103-08737,\n  author = {Shyam Sudhakaran and Djordje Grbic and Siyan Li and Adam Katona and Elias Najarro and Claire Glanois and Sebastian Risi},\n  title = {{Growing 3D Artefacts and Functional Machines with Neural Cellular Automata}},\n  year = {2021},\n  booktitle = {ALIFE 2021},\n  url = {https://arxiv.org/abs/2103.08737},\n  eprint = {2103.08737},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "Y9LPUEMP",
-      "zotero_keys": [
-        "Y9LPUEMP"
-      ],
       "authors": [
         "Alexander Mordvintsev",
         "Ettore Randazzo",
@@ -1033,18 +910,10 @@
         "Image Data",
         "Morphogenesis"
       ],
-      "zotero_keywords": [
-        "Generative",
-        "Image Data",
-        "NCA Basics"
-      ],
       "bibtex": "@article{Y9LPUEMP,\n  author = {Alexander Mordvintsev and Ettore Randazzo and Eyvind Niklasson and Michael Levin},\n  title = {{Growing Neural Cellular Automata}},\n  year = {2020},\n  journal = {Distill},\n  url = {https://distill.pub/2020/growing-ca/}\n}"
     },
     {
       "id": "6FXKQCRS",
-      "zotero_keys": [
-        "6FXKQCRS"
-      ],
       "authors": [
         "Ettore Randazzo",
         "Alexander Mordvintsev",
@@ -1062,17 +931,10 @@
         "Classification",
         "MNIST"
       ],
-      "zotero_keywords": [
-        "Classification",
-        "MNIST"
-      ],
       "bibtex": "@article{6FXKQCRS,\n  author = {Ettore Randazzo and Alexander Mordvintsev and Eyvind Niklasson and Michael Levin and Sam Greydanus},\n  title = {{Self-classifying MNIST Digits}},\n  year = {2020},\n  journal = {Distill},\n  url = {https://distill.pub/2020/selforg/mnist/}\n}"
     },
     {
       "id": "CXNI728H",
-      "zotero_keys": [
-        "CXNI728H"
-      ],
       "authors": [
         "Mark Sandler",
         "Andrey Zhmoginov",
@@ -1091,14 +953,10 @@
         "Segmentation",
         "Computer Vision"
       ],
-      "zotero_keywords": [],
       "bibtex": "@misc{CXNI728H,\n  author = {Mark Sandler and Andrey Zhmoginov and Liangcheng Luo and Alexander Mordvintsev and Ettore Randazzo and others},\n  title = {{Image segmentation via cellular automata}},\n  year = {2020},\n  howpublished = {arXiv preprint arXiv:2008.04965},\n  url = {https://arxiv.org/abs/2008.04965},\n  eprint = {2008.04965},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "YMRI6DD2",
-      "zotero_keys": [
-        "YMRI6DD2"
-      ],
       "authors": [
         "William Gilpin"
       ],
@@ -1112,16 +970,10 @@
         "NCA Basics",
         "Perception Modules"
       ],
-      "zotero_keywords": [
-        "NCA Basics"
-      ],
       "bibtex": "@article{YMRI6DD2,\n  author = {William Gilpin},\n  title = {{Cellular automata as convolutional neural networks}},\n  year = {2019},\n  journal = {Physical Review E},\n  url = {https://doi.org/10.1103/PhysRevE.100.032402},\n  doi = {10.1103/PhysRevE.100.032402}\n}"
     },
     {
       "id": "54PCYE7M",
-      "zotero_keys": [
-        "54PCYE7M"
-      ],
       "authors": [
         "Jifeng Dai",
         "Haozhi Qi",
@@ -1141,16 +993,10 @@
         "Perception Modules",
         "Computer Vision"
       ],
-      "zotero_keywords": [
-        "Perception Modules"
-      ],
       "bibtex": "@misc{54PCYE7M,\n  author = {Jifeng Dai and Haozhi Qi and Yuwen Xiong and Yi Li and Guodong Zhang and Han Hu and Yichen Wei},\n  title = {{Deformable Convolutional Networks}},\n  year = {2017},\n  howpublished = {arXiv (preprint)},\n  url = {https://arxiv.org/abs/1703.06211},\n  eprint = {1703.06211},\n  archivePrefix = {arXiv}\n}"
     },
     {
       "id": "75KEELR5",
-      "zotero_keys": [
-        "75KEELR5"
-      ],
       "authors": [
         "Haralampos Hatzikirou",
         "David Basanta",
@@ -1168,14 +1014,10 @@
         "Biology",
         "Medical Modelling"
       ],
-      "zotero_keywords": [],
       "bibtex": "@article{75KEELR5,\n  author = {Haralampos Hatzikirou and David Basanta and Matthias Simon and Karl Schaller and Andreas Deutsch},\n  title = {{‘Go or grow’: the key to the emergence of invasion in tumour progression?}},\n  year = {2012},\n  journal = {Mathematical medicine and biology: a journal of the IMA},\n  url = {https://doi.org/10.1093/imammb/dqq011},\n  doi = {10.1093/imammb/dqq011}\n}"
     },
     {
       "id": "6RVYVQUP",
-      "zotero_keys": [
-        "6RVYVQUP"
-      ],
       "authors": [
         "Joel L Schiff"
       ],
@@ -1190,14 +1032,10 @@
         "Theory",
         "Complex Systems"
       ],
-      "zotero_keywords": [],
       "bibtex": "@book{6RVYVQUP,\n  author = {Joel L Schiff},\n  title = {{Cellular automata: a discrete view of the world}},\n  year = {2011},\n  publisher = {John Wiley \\& Sons},\n  url = {https://doi.org/10.1002/9781118032381},\n  doi = {10.1002/9781118032381}\n}"
     },
     {
       "id": "ABYJYDT4",
-      "zotero_keys": [
-        "ABYJYDT4"
-      ],
       "authors": [
         "Stephen Coombes"
       ],
@@ -1211,14 +1049,10 @@
         "Biology",
         "Pattern Formation"
       ],
-      "zotero_keywords": [],
       "bibtex": "@misc{ABYJYDT4,\n  author = {Stephen Coombes},\n  title = {{The geometry and pigmentation of seashells}},\n  year = {2009},\n  howpublished = {Nottingham: Department of Mathematical Sciences, University of Nottingham},\n  url = {https://www.maths.nottingham.ac.uk/plp/pmzsc/pdfs/Seashells09.pdf}\n}"
     },
     {
       "id": "7RMGP3MT",
-      "zotero_keys": [
-        "7RMGP3MT"
-      ],
       "authors": [
         "Matthew Cook",
         "et al."
@@ -1234,14 +1068,10 @@
         "Theory",
         "Universal Computation"
       ],
-      "zotero_keywords": [],
       "bibtex": "@article{7RMGP3MT,\n  author = {Matthew Cook and others},\n  title = {{Universality in elementary cellular automata}},\n  year = {2004},\n  journal = {Complex systems},\n  url = {https://www.complex-systems.com/abstracts/v15_i01_a01/}\n}"
     },
     {
       "id": "LVMT9RQE",
-      "zotero_keys": [
-        "LVMT9RQE"
-      ],
       "authors": [
         "Stephen Wolfram",
         "M Gad-el-Hak"
@@ -1256,16 +1086,10 @@
         "CA Basics",
         "Complex Systems"
       ],
-      "zotero_keywords": [
-        "CA Basics"
-      ],
       "bibtex": "@article{LVMT9RQE,\n  author = {Stephen Wolfram and M Gad-el-Hak},\n  title = {{A new kind of science}},\n  year = {2003},\n  journal = {Appl. Mech. Rev.},\n  url = {https://doi.org/10.1115/1.1553433},\n  doi = {10.1115/1.1553433}\n}"
     },
     {
       "id": "A39C8XKJ",
-      "zotero_keys": [
-        "A39C8XKJ"
-      ],
       "authors": [
         "Martin Gerhardt",
         "Heike Schuster"
@@ -1281,14 +1105,10 @@
         "Pattern Formation",
         "Physical Modelling"
       ],
-      "zotero_keywords": [],
       "bibtex": "@article{A39C8XKJ,\n  author = {Martin Gerhardt and Heike Schuster},\n  title = {{A cellular automaton describing the formation of spatially ordered structures in chemical systems}},\n  year = {1989},\n  journal = {Physica D: Nonlinear Phenomena},\n  url = {https://doi.org/10.1016/0167-2789(89)90081-X},\n  doi = {10.1016/0167-2789(89)90081-X}\n}"
     },
     {
       "id": "78MS4SZ9",
-      "zotero_keys": [
-        "78MS4SZ9"
-      ],
       "authors": [
         "Y Bouligand"
       ],
@@ -1302,14 +1122,10 @@
         "Biology",
         "Morphogenesis"
       ],
-      "zotero_keywords": [],
       "bibtex": "@incollection{78MS4SZ9,\n  author = {Y Bouligand},\n  title = {{Fibroblasts, morphogenesis and cellular automata}},\n  year = {1986},\n  booktitle = {Disordered Systems and Biological Organization},\n  url = {https://link.springer.com/chapter/10.1007/978-3-642-82657-3_36}\n}"
     },
     {
       "id": "NNR5TXP5",
-      "zotero_keys": [
-        "NNR5TXP5"
-      ],
       "authors": [
         "Stephen Wolfram"
       ],
@@ -1324,16 +1140,10 @@
         "Physical Modelling",
         "Complex Systems"
       ],
-      "zotero_keywords": [
-        "CA Basics"
-      ],
       "bibtex": "@article{NNR5TXP5,\n  author = {Stephen Wolfram},\n  title = {{Statistical mechanics of cellular automata}},\n  year = {1983},\n  journal = {Reviews of modern physics},\n  url = {https://doi.org/10.1103/RevModPhys.55.601},\n  doi = {10.1103/RevModPhys.55.601}\n}"
     },
     {
       "id": "RZRACJHH",
-      "zotero_keys": [
-        "RZRACJHH"
-      ],
       "authors": [
         "Martin Gardner"
       ],
@@ -1347,16 +1157,10 @@
         "CA Basics",
         "Artificial Life"
       ],
-      "zotero_keywords": [
-        "CA Basics"
-      ],
       "bibtex": "@article{RZRACJHH,\n  author = {Martin Gardner},\n  title = {{MATHEMATICAL GAMES - The fantastic combinations of John Conway's new solitaire game \"life\"}},\n  year = {1970},\n  journal = {Scientific American},\n  url = {https://www.ibiblio.org/lifepatterns/october1970.html}\n}"
     },
     {
       "id": "UI29T3TY",
-      "zotero_keys": [
-        "UI29T3TY"
-      ],
       "authors": [
         "John Von Neumann",
         "Arthur Walter Burks",
@@ -1372,9 +1176,6 @@
         "CA Basics",
         "Artificial Life",
         "Theory"
-      ],
-      "zotero_keywords": [
-        "CA Basics"
       ],
       "bibtex": "@book{UI29T3TY,\n  author = {John Von Neumann and Arthur Walter Burks and others},\n  title = {{Theory of self-reproducing automata}},\n  year = {1966},\n  publisher = {University of Illinois Press},\n  url = {https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf}\n}"
     }

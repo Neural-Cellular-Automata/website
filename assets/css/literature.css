@@ -1,5 +1,10 @@
 .literature [hidden] { display: none !important; }
 .literature-source, .literature-help { color: #595959; font-size: 13px; }
+.literature .bibliography-download { margin: 22px 0 28px; }
+.literature .download-bibtex { display: inline-flex; align-items: center; justify-content: center; gap: 10px; box-sizing: border-box; max-width: 100%; min-height: 48px; padding: 12px 20px; border: 1px solid #245a70; border-radius: 6px; background: #245a70; color: #fff; font-size: 16px; font-weight: 600; text-decoration: none; }
+.literature .download-bibtex:hover { background: #193f50; border-color: #193f50; }
+.literature .download-bibtex svg { flex-shrink: 0; }
+.literature .bibliography-download p { margin: 8px 0 0; }
 .literature #literature-controls { margin: 28px 0 20px; }
 .literature label { display: block; font-weight: 600; }
 .literature input, .literature select, .literature button { font: inherit; }
