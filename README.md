@@ -5,13 +5,6 @@
 
 Over two decades later, while Cellular Automata have still been waiting for a substantial breakthrough in scientific applications, recent research showed new and promising approaches which combine **Wolfram's** ideas with learnable Artificial Neural Networks: So-called ***Neural Cellular Automata (NCA)*** are able to learn the complex update rules of CA from data samples, allowing them to model complex, self-organizing generative systems.
 
-### Table of Content 
-* [Cellular Automata](#cellular-automata)
-* [Neural Cellular Automata](#neural-cellular-automata)
-* [NCAtorch PyTorch Library](#ncatorch) [![TMLR](https://img.shields.io/badge/TMLR-accepted-brightgreen.svg)](https://openreview.net/pdf?id=NRwjj0ZLq0)
-* [Spatial Reasoning with NCA](#anca) [![NeurIPs](https://img.shields.io/badge/NeurIPs-accepted-brightgreen.svg)](https://arxiv.org/pdf/2610.08518)
-* [NCA Literature — searchable papers and keyword groups](literature/)
-
 ## Cellular Automata
 *Cellular Automata* (CA) have been a subject of study since the 1940s, notably by *John von Neumann* ([von Neumann, 1966](https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf)) and others. At its core, *Cellular Automata* are discrete computational models, which consist of a finite, regular grid $\mathcal{G}$ of discrete cells. Each cell holds a discrete state $s_{i,t}$ at a given discrete time-step $t$.
 
@@ -126,6 +119,7 @@ Key features:
 </div>
 
 ---
+
 ## aNCA
 ### 🧠 Spatial Reasoning with Adaptive Neural Cellular Automata (NeurIPS 2026)
 
@@ -177,6 +171,7 @@ The proposed architecture, experimental setups, and benchmark implementations ar
 ```
 
 ---
+
 ## NCA Literature
 We maintain a [literature overview](literature/) with NCA related publications. Feel free to open an [issue](https://github.com/Neural-Cellular-Automata/website/issues/new/choose) if we are missing a paper ... 
 
