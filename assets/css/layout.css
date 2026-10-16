@@ -42,6 +42,8 @@
 .site-toc li { margin-bottom: 12px; }
 .site-toc a { display: inline-block; line-height: 1.5; }
 .site-toc a:focus-visible { outline: 3px solid #007bba; outline-offset: 3px; }
+.site-maintainer { margin-top: 24px; padding-top: 16px; border-top: 1px solid #dce4e8; font-size: 13px; }
+.site-maintainer a { display: inline-flex; align-items: center; gap: 7px; margin-top: 6px; }
 @media (max-width: 960px) {
   .wrapper { display: block; }
   .wrapper > header { position: static; max-height: none; overflow: visible; padding-right: 0; }

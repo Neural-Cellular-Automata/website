@@ -185,9 +185,6 @@ We maintain a [literature overview](literature/) with NCA related publications. 
 
 ---
 
-This site is maintained by
-
-<a href="https://www.keuper-labs.org/"><img src="logo.svg" width=20></a>
-<a href="https://www.keuper-labs.org/">www.keuper-labs.org</a>
+This site is maintained by <a href="https://www.keuper-labs.org/"><img src="logo.svg" alt="" width="20"> Keuper-Labs</a>.
 
 
