@@ -27,6 +27,13 @@
   float: none;
   width: auto;
 }
+.wrapper > section .intro-figure {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
+}
 .site-navigation { display: flex; flex-wrap: wrap; gap: 16px; margin: 20px 0; }
 .site-navigation a[aria-current="page"] { font-weight: 700; text-decoration: underline; }
 .site-toc { margin-top: 28px; }

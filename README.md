@@ -5,13 +5,21 @@
 
 Over two decades later, while Cellular Automata have still been waiting for a substantial breakthrough in scientific applications, recent research showed new and promising approaches which combine **Wolfram's** ideas with learnable Artificial Neural Networks: So-called ***Neural Cellular Automata (NCA)*** are able to learn the complex update rules of CA from data samples, allowing them to model complex, self-organizing generative systems.
 
+### Table of Contents
+
+* [Cellular Automata](#cellular-automata)
+* [Neural Cellular Automata](#neural-cellular-automata)
+* [NCAtorch PyTorch Library](#ncatorch) [![TMLR](https://img.shields.io/badge/TMLR-accepted-brightgreen.svg)](https://openreview.net/pdf?id=NRwjj0ZLq0)
+* [Spatial Reasoning with NCA](#anca) [![NeurIPS](https://img.shields.io/badge/NeurIPS-accepted-brightgreen.svg)](https://arxiv.org/pdf/2610.08518)
+* [NCA Literature — searchable papers and keyword groups](literature/)
+
 ## Cellular Automata
 *Cellular Automata* (CA) have been a subject of study since the 1940s, notably by *John von Neumann* ([von Neumann, 1966](https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf)) and others. At its core, *Cellular Automata* are discrete computational models, which consist of a finite, regular grid $\mathcal{G}$ of discrete cells. Each cell holds a discrete state $s_{i,t}$ at a given discrete time-step $t$.
 
 
 | **A simple 1D CA Example** |
 | --- |
-| ![CA figure 1](binaryCAv3.png) |
+| <img class="intro-figure" src="binaryCAv3.png" alt="CA figure 1" width="500"> |
 | **Visualization of a simple, 1D CA with binary states.** **a)** shows the recursive update of grid states over time by applying the update rules $\mathcal{R}$ on the $3 \times 1$ cell neighborhoods shown in **b)**. |
 
 As time progresses, cell states are updated recursively and synchronously across all cells, based on a set of rules $\mathcal{R}$ that utilize the local neighborhood $\mathcal{N}(s_{i,t})$ to calculate the new cell state: $s_{i,t+1}:=\mathcal{R}[\mathcal{N}(s_{i,t})]$ (Schiff, 2011). Figure 1 shows the computation process and rules for a basic CA with binary states ($s_{(x,y),t} \in \{0,1\}$).
@@ -53,7 +61,7 @@ The theoretical equivalence between "nested" CNNs and CA has been formally prove
 
 | **NCA Implementation as Recursive CNN** |
 | --- |
-| ![NCA figure 2](nca.png) |
+| <img class="intro-figure" src="nca.png" alt="NCA figure 2" width="500"> |
 | **Sketch of a basic CNN implementation of a 2D NCA** with a 3D state space. The initial grid is fed into a CNN architecture which updates the state additively and is called recursively for each time step. During training, the network is trained via usual gradient updates computed per timestep.. |
 
 
