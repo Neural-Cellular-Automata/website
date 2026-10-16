@@ -13,7 +13,7 @@ Over two decades later, while Cellular Automata have still been waiting for a su
 * [NCA Literature — searchable papers and keyword groups](literature/)
 
 ## Cellular Automata
-*Cellular Automata* (CA) have been a subject of study since the 1940s, notably by *John von Neumann* ([von Neumann, 1966](https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf)) and others. At its core, *Cellular Automata* are discrete computational models, which consist of a finite, regular grid $\mathcal{G}https://github.com/Neural-Cellular-Automata/website$ of discrete cells. Each cell holds a discrete state $s_{i,t}$ at a given discrete time-step $t$.
+*Cellular Automata* (CA) have been a subject of study since the 1940s, notably by *John von Neumann* ([von Neumann, 1966](https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf)) and others. At its core, *Cellular Automata* are discrete computational models, which consist of a finite, regular grid $\mathcal{G}$ of discrete cells. Each cell holds a discrete state $s_{i,t}$ at a given discrete time-step $t$.
 
 
 | **A simple 1D CA Example** |
